@@ -1,5 +1,5 @@
 <script lang="ts">
-	import movies from '../constants/moviedb.svele'
+	import movies from '../constants/moviedb.svelte'
 	import { List, Error } from '../lib/index.svelte'
 	import { Loader } from '../lib/index.svelte'
 

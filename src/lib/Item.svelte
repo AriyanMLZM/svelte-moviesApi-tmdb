@@ -2,6 +2,8 @@
 	import { link } from 'svelte-spa-router'
 	export let item
 	export let type
+
+	let imageError = false
 </script>
 
 <a
@@ -9,11 +11,16 @@
 	use:link
 	class="bg-black/50 hover:bg-white/30 rounded-[20px] w-full flex justify-between flex-col hover:text-black text-white"
 >
-	<img
-		src="https://image.tmdb.org/t/p/original{item.poster}"
-		alt={item.title}
-		class="w-full h-full object-cover rounded-t-[20px]"
-	/>
+	<div class="w-full h-full bg-gray-300 rounded-t-[20px]">
+		{#if !imageError}
+			<img
+				src="https://image.tmdb.org/t/p/original{item.poster}"
+				alt={item.title}
+				class="w-full h-full object-cover rounded-t-[20px]"
+				on:error={() => (imageError = true)}
+			/>
+		{:else}{/if}
+	</div>
 	<div class="w-full px-[20px] py-[10px] select-none">
 		<h1
 			class="text-[1rem] font-bold text-left w-full overflow-hidden overflow-ellipsis text-nowrap"
