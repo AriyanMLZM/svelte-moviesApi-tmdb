@@ -5,16 +5,16 @@
 </script>
 
 <div
-	class="w-full flex justify-center items-center flex-col md:justify-normal md:items-start md:flex-row"
+	class="w-full flex justify-center gap-[40px] items-center flex-col md:justify-normal md:items-start md:flex-row"
 >
 	<div class="w-[300px] h-[300px]">
 		<img
-			src="https://image.tmdb.org/t/p/original{movie.poster}"
+			src="https://image.tmdb.org/t/p/original{movie.backgroundImage}"
 			alt={movie.title}
 			class="w-full h-full object-cover rounded-[20px]"
 		/>
 	</div>
-	<div class="text-white p-[20px]">
+	<div class="text-white">
 		<h1 class="text-[2rem] font-bold">{movie.title}</h1>
 		{#each movie.genres as genre, index}
 			<span class="text-[0.8rem] text-primary">{genre.name}</span>
@@ -34,12 +34,16 @@
 			<span class="text-primary">Runtime</span>
 			{movie.runtime} mins
 		</h2>
+		<h2 class="text-[0.85rem] mt-[20px] w-[250px] flex justify-between">
+			<span class="text-primary">Tmdb</span>
+			{movie.vote}
+		</h2>
 	</div>
 	<div class="p-[10px] md:p-[50px]">
 		<h2 class="text-white text-[1.1rem]">" {movie.tagline} "</h2>
 	</div>
 </div>
-<div class="p-[20px]">
+<div class="p-[20px] mt-[20px]">
 	<p class="text-white text-[0.9rem] text-justify">
 		{movie.overview}
 	</p>

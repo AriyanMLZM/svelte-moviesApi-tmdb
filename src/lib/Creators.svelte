@@ -1,9 +1,10 @@
 <script lang="ts">
-	export let cast
+	export let creators
+	export let role: string
 </script>
 
-<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[20px] mt-[60px]">
-	{#each cast as person}
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[20px] mt-[40px]">
+	{#each creators as person}
 		<div class="flex">
 			<div class="w-[100px] h-[120px] bg-gray-500 rounded-[20px]">
 				{#if person.profile_path}
@@ -16,8 +17,8 @@
 			</div>
 			<div class="text-white p-[20px]">
 				<h2 class="text-[0.9rem]">{person.name}</h2>
-				<h3 class="text-[0.8rem]">{person.character}</h3>
+				<h3 class="text-[0.8rem] text-primary">{role}</h3>
 			</div>
 		</div>
 	{/each}
-</section>
+</div>

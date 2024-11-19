@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-	@apply text-[16px]
+	@apply text-[17px]
   sm:text-[19px] 
   md:text-[22px];
 }

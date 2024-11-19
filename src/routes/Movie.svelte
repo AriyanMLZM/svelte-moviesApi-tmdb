@@ -1,5 +1,6 @@
 <script lang="ts">
 	import CastList from '../lib/CastList.svelte'
+	import Creators from '../lib/Creators.svelte'
 	import { Error, Loader, MovieInfo } from '../lib/index.svelte'
 	import type { IApiMovie } from '../types/index.svelte'
 
@@ -56,28 +57,13 @@
 			movie.backgroundImage})"
 	>
 		<div
-			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto p-[20px]"
+			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto px-[20px] py-[60px]"
 		>
 			<MovieInfo {movie} />
 			{#await getCast()}
 				<Loader />
 			{:then cast}
-				<div class="flex items-center mt-[40px]">
-					{#each cast.directors as director}
-						<div class="w-[100px] h-[120px]">
-							<img
-								src={import.meta.env.VITE_TMDB_IMAGE_URL +
-									director.profile_path}
-								alt={director.name}
-								class="w-full h-full object-cover rounded-[20px]"
-							/>
-						</div>
-						<div class="text-white p-[20px]">
-							<h2 class="text-[0.9rem]">{director.name}</h2>
-							<h3 class="text-[0.8rem] text-primary">Director</h3>
-						</div>
-					{/each}
-				</div>
+				<Creators creators={cast.directors} role={'Director'} />
 				<CastList cast={cast.actors} />
 			{:catch error}
 				<Error msg={error.message} />

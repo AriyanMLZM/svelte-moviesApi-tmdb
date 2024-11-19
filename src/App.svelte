@@ -22,7 +22,7 @@
 </script>
 
 <Navbar />
-<main class="w-full h-screen pt-[50px] overflow-hidden">
+<main class="w-full h-screen overflow-hidden">
 	<Router {routes} />
 </main>
 
