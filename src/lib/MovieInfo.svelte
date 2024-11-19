@@ -1,0 +1,46 @@
+<script lang="ts">
+	import type { IMovie } from '../types/index.svelte'
+
+	export let movie: IMovie
+</script>
+
+<div
+	class="w-full flex justify-center items-center flex-col md:justify-normal md:items-start md:flex-row"
+>
+	<div class="w-[300px] h-[300px]">
+		<img
+			src="https://image.tmdb.org/t/p/original{movie.poster}"
+			alt={movie.title}
+			class="w-full h-full object-cover rounded-[20px]"
+		/>
+	</div>
+	<div class="text-white p-[20px]">
+		<h1 class="text-[2rem] font-bold">{movie.title}</h1>
+		{#each movie.genres as genre, index}
+			<span class="text-[0.8rem] text-primary">{genre.name}</span>
+			{#if index !== movie.genres.length - 1}
+				<span class="text-[0.8rem]">- {' '}</span>
+			{/if}
+		{/each}
+		<h2 class="text-[0.85rem] mt-[20px] w-[250px] flex justify-between">
+			<span class="text-primary">Release</span>
+			{movie.releaseDate}
+		</h2>
+		<h2 class="text-[0.85rem] mt-[20px] w-[250px] flex justify-between">
+			<span class="text-primary">Language</span>
+			{movie.language}
+		</h2>
+		<h2 class="text-[0.85rem] mt-[20px] w-[250px] flex justify-between">
+			<span class="text-primary">Runtime</span>
+			{movie.runtime} mins
+		</h2>
+	</div>
+	<div class="p-[10px] md:p-[50px]">
+		<h2 class="text-white text-[1.1rem]">" {movie.tagline} "</h2>
+	</div>
+</div>
+<div class="p-[20px]">
+	<p class="text-white text-[0.9rem] text-justify">
+		{movie.overview}
+	</p>
+</div>

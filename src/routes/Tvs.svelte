@@ -1,5 +1,5 @@
 <script lang="ts">
-	import tvs from '../constants/tvdb.svelte'
+	import { tvs } from '../constants/index.svelte'
 	import { List, Error } from '../lib/index.svelte'
 	import { Loader } from '../lib/index.svelte'
 

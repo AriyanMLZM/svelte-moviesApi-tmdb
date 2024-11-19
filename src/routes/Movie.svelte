@@ -1,5 +1,89 @@
-<script>
+<script lang="ts">
+	import CastList from '../lib/CastList.svelte'
+	import { Error, Loader, MovieInfo } from '../lib/index.svelte'
+	import type { IApiMovie } from '../types/index.svelte'
+
 	export let params
+
+	const getData = async () => {
+		const resTmdb = await fetch(
+			`https://api.themoviedb.org/3/movie/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+		)
+		const {
+			original_title: title,
+			release_date: releaseDate,
+			poster_path: poster,
+			vote_average: vote,
+			backdrop_path: backgroundImage,
+			genres,
+			original_language: language,
+			overview,
+			runtime,
+			tagline,
+		} = (await resTmdb.json()) as IApiMovie
+
+		return {
+			title,
+			releaseDate,
+			poster,
+			vote,
+			backgroundImage,
+			genres,
+			language,
+			overview,
+			runtime,
+			tagline,
+		}
+	}
+
+	const getCast = async () => {
+		const resTmdb = await fetch(
+			`https://api.themoviedb.org/3/movie/${params.id}/credits?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+		)
+		const { cast, crew } = await resTmdb.json()
+		const directors = crew.filter((item: any) => item.job === 'Director')
+
+		return { directors, actors: cast }
+	}
 </script>
 
-<h1>Movie: {params.id}</h1>
+{#await getData()}
+	<Loader />
+{:then movie}
+	<section
+		class="w-full h-full bg-center bg-cover"
+		style:background-image="url({import.meta.env.VITE_TMDB_IMAGE_URL +
+			movie.backgroundImage})"
+	>
+		<div
+			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto p-[20px]"
+		>
+			<MovieInfo {movie} />
+			{#await getCast()}
+				<Loader />
+			{:then cast}
+				<div class="flex items-center mt-[40px]">
+					{#each cast.directors as director}
+						<div class="w-[100px] h-[120px]">
+							<img
+								src={import.meta.env.VITE_TMDB_IMAGE_URL +
+									director.profile_path}
+								alt={director.name}
+								class="w-full h-full object-cover rounded-[20px]"
+							/>
+						</div>
+						<div class="text-white p-[20px]">
+							<h2 class="text-[0.9rem]">{director.name}</h2>
+							<h3 class="text-[0.8rem] text-primary">Director</h3>
+						</div>
+					{/each}
+				</div>
+				<CastList cast={cast.actors} />
+			{:catch error}
+				<Error msg={error.message} />
+			{/await}
+		</div>
+	</section>
+{:catch error}
+	<Error msg={error.message} />
+{/await}

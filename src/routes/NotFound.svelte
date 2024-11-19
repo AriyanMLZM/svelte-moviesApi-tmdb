@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { push } from 'svelte-spa-router'
 	import { notFoundImage } from '../assets/images/index.svelte'
 </script>
