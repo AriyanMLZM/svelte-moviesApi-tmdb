@@ -8,6 +8,7 @@ import CastList from './CastList.svelte'
 import TvInfo from './TvInfo.svelte'
 import Creators from './Creators.svelte'
 import Seasons from './Seasons.svelte'
+import Networks from './Networks.svelte'
 
 export {
 	Navbar,
@@ -18,6 +19,7 @@ export {
 	MovieInfo,
 	CastList,
 	TvInfo,
-  Creators,
-  Seasons
+	Creators,
+	Seasons,
+	Networks,
 }

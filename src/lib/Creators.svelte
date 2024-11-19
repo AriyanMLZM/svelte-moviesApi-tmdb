@@ -3,7 +3,9 @@
 	export let role: string
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[20px] mt-[40px]">
+<div
+	class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[20px] mt-[60px]"
+>
 	{#each creators as person}
 		<div class="flex">
 			<div class="w-[100px] h-[120px] bg-gray-500 rounded-[20px]">

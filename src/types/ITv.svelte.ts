@@ -13,7 +13,7 @@ export interface IApiTv {
 	last_episode_to_air: Episode
 	name: string
 	next_episode_to_air: Episode | null
-	networks: Network[]
+	networks: INetwork[]
 	number_of_episodes: number
 	number_of_seasons: number
 	origin_country: string[]
@@ -49,7 +49,7 @@ export interface ITv {
 	seasonsNum: number
 	seasons: ISeason[]
 	status: string
-	networks: Network[]
+	networks: INetwork[]
 }
 
 interface Creator {
@@ -82,7 +82,7 @@ interface Episode {
 	still_path: string
 }
 
-interface Network {
+export interface INetwork {
 	id: number
 	logo_path: string
 	name: string

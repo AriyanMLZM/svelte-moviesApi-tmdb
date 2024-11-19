@@ -6,6 +6,7 @@
 		Creators,
 		Seasons,
 		CastList,
+		Networks,
 	} from '../lib/index.svelte'
 	import type { IApiTv } from '../types/index.svelte'
 
@@ -76,6 +77,7 @@
 		>
 			<TvInfo {tv} />
 			<Seasons seasons={tv.seasons} id={params.id} />
+			<Networks networks={tv.networks} />
 			<Creators creators={tv.creators} role="Creator" />
 			{#await getCast()}
 				<Loader />
