@@ -7,6 +7,7 @@
 		Seasons,
 		CastList,
 		Networks,
+		BackButton,
 	} from '../lib/index.svelte'
 	import type { IApiTv } from '../types/index.svelte'
 
@@ -73,8 +74,9 @@
 			tv.backgroundImage})"
 	>
 		<div
-			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto px-[20px] py-[60px]"
+			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto px-[20px] pb-[60px]"
 		>
+			<BackButton />
 			<TvInfo {tv} />
 			<Seasons seasons={tv.seasons} id={params.id} />
 			<Networks networks={tv.networks} />

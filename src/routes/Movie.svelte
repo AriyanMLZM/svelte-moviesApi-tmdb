@@ -1,7 +1,12 @@
 <script lang="ts">
-	import CastList from '../lib/CastList.svelte'
-	import Creators from '../lib/Creators.svelte'
-	import { Error, Loader, MovieInfo } from '../lib/index.svelte'
+	import {
+		Error,
+		Loader,
+		MovieInfo,
+		CastList,
+		Creators,
+		BackButton,
+	} from '../lib/index.svelte'
 	import type { IApiMovie } from '../types/index.svelte'
 
 	export let params
@@ -57,8 +62,9 @@
 			movie.backgroundImage})"
 	>
 		<div
-			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto px-[20px] py-[60px]"
+			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto px-[20px] pb-[60px]"
 		>
+			<BackButton />
 			<MovieInfo {movie} />
 			{#await getCast()}
 				<Loader />

@@ -9,6 +9,8 @@ import TvInfo from './TvInfo.svelte'
 import Creators from './Creators.svelte'
 import Seasons from './Seasons.svelte'
 import Networks from './Networks.svelte'
+import BackButton from './BackButton.svelte'
+import EpisodesList from './EpisodesList.svelte'
 
 export {
 	Navbar,
@@ -22,4 +24,6 @@ export {
 	Creators,
 	Seasons,
 	Networks,
+	BackButton,
+	EpisodesList,
 }
