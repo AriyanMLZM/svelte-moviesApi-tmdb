@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { tvs } from '../constants/index.svelte'
-	import { List, Error } from '../lib/index.svelte'
+	import { List, Error, Trending } from '../lib/index.svelte'
 	import { Loader } from '../lib/index.svelte'
 
 	document.title = 'Movotopia | Tv'
@@ -33,6 +33,7 @@
 {#await getData()}
 	<Loader />
 {:then tvsData}
+	<Trending type="tv" />
 	<List data={tvsData} type={'tv'} />
 {:catch error}
 	<Error msg={error.message} />

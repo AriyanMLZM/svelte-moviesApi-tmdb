@@ -25,8 +25,7 @@
 			</div>
 			<div class="text-white p-[20px] text-center">
 				<h2 class="text-[0.9rem]">
-					<span class="text-primary">Season</span>
-					{season.season_number}
+					{season.name}
 				</h2>
 				<div class="flex justify-between gap-[40px] mt-[10px]">
 					<h3 class="text-[0.8rem]">{season.vote_average}</h3>

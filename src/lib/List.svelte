@@ -5,7 +5,7 @@
 </script>
 
 <section
-	class="list-scroll w-full h-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-[40px] pt-[70px] px-[20px] pb-[50px] overflow-y-auto"
+	class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-[40px] pt-[70px] px-[20px] pb-[50px]"
 >
 	{#each data as item}
 		<Item {item} {type} />

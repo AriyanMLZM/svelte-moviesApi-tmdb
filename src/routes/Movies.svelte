@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { movies } from '../constants/index.svelte'
 	import { List, Error } from '../lib/index.svelte'
-	import { Loader } from '../lib/index.svelte'
+	import { Loader, Trending } from '../lib/index.svelte'
 	import type { IApiMovie } from '../types/index.svelte'
 
 	document.title = 'Movotopia | Movie'
@@ -34,6 +34,7 @@
 {#await getData()}
 	<Loader />
 {:then moviesData}
+	<Trending type="movie" />
 	<List data={moviesData} type={'movie'} />
 {:catch error}
 	<Error msg={error.message} />

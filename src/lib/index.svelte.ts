@@ -11,6 +11,7 @@ import Seasons from './Seasons.svelte'
 import Networks from './Networks.svelte'
 import BackButton from './BackButton.svelte'
 import EpisodesList from './EpisodesList.svelte'
+import Trending from './Trending.svelte'
 
 export {
 	Navbar,
@@ -26,4 +27,5 @@ export {
 	Networks,
 	BackButton,
 	EpisodesList,
+	Trending,
 }

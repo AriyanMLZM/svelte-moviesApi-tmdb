@@ -22,7 +22,7 @@
 </script>
 
 <Navbar />
-<main class="w-full h-screen overflow-hidden">
+<main class="w-full h-screen overflow-y-auto list-scroll">
 	<Router {routes} />
 </main>
 
