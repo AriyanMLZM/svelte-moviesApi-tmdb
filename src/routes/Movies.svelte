@@ -2,6 +2,7 @@
 	import { movies } from '../constants/index.svelte'
 	import { List, Error } from '../lib/index.svelte'
 	import { Loader } from '../lib/index.svelte'
+	import type { IApiMovie } from '../types/index.svelte'
 
 	document.title = 'Movotopia | Movie'
 
@@ -16,7 +17,7 @@
 				release_date: date,
 				poster_path: poster,
 				vote_average: vote,
-			} = await resTmdb.json()
+			} = (await resTmdb.json()) as IApiMovie
 
 			data.push({
 				id: item,

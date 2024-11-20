@@ -7,8 +7,8 @@
 <section class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[20px]">
 	{#each episodes as episode}
 		<div class="flex justify-center">
-			<div class="flex flex-col w-[350px] gap-[20px] p-[20px]">
-				<div class="w-full h-[170px] bg-gray-500 rounded-[20px]">
+			<div class="flex flex-col w-[450px] gap-[20px] p-[20px]">
+				<div class="w-full h-[250px] bg-gray-500 rounded-[20px]">
 					{#if episode.still_path}
 						<img
 							src={import.meta.env.VITE_TMDB_IMAGE_URL + episode.still_path}
