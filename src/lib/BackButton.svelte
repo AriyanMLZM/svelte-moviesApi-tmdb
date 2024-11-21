@@ -7,7 +7,7 @@
 	<button on:click={() => pop()} type="button">
 		<Icon
 			icon="ion:arrow-back-outline"
-			class="text-white hover:text-primary text-[1.8rem]"
+			class="text-white hover:text-primary active:text-primary text-[1.8rem]"
 		/>
 	</button>
 </div>

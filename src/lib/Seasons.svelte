@@ -12,7 +12,7 @@
 		<a
 			href="/season/{id}/{season.season_number}"
 			use:link
-			class="flex-center flex-col hover:bg-white/30 rounded-[20px] p-[20px]"
+			class="flex-center flex-col hover:bg-white/30 active:bg-white/30 rounded-[20px] p-[20px]"
 		>
 			<div class="w-[300px] bg-gray-500 rounded-[20px]">
 				{#if season.poster_path}
