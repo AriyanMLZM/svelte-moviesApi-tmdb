@@ -9,10 +9,5 @@
 >
 	{#each data as item}
 		<Item {item} {type} />
-		<Item {item} {type} />
-		<Item {item} {type} />
-		<Item {item} {type} />
-		<Item {item} {type} />
-		<Item {item} {type} />	
 	{/each}
 </section>

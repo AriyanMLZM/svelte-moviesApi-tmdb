@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { tvs } from '../constants/index.svelte'
+	import tvs from '../constants/tmdb-ids.series.json'
 	import { List, Error, Trending } from '../lib/index.svelte'
 	import { Loader } from '../lib/index.svelte'
 
@@ -9,7 +9,7 @@
 		let data = []
 		for (let item of tvs) {
 			const resTmdb = await fetch(
-				`https://api.themoviedb.org/3/tv/${item}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+				`https://api.themoviedb.org/3/tv/${item.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
 			)
 			const {
 				original_name: title,
@@ -19,7 +19,7 @@
 			} = await resTmdb.json()
 
 			data.push({
-				id: item,
+				id: item.id,
 				title,
 				date: date.split('-')[0],
 				poster,
