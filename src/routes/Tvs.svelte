@@ -12,7 +12,7 @@
 				`https://api.themoviedb.org/3/tv/${item.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
 			)
 			const {
-				original_name: title,
+				name: title,
 				first_air_date: date,
 				poster_path: poster,
 				vote_average: vote,

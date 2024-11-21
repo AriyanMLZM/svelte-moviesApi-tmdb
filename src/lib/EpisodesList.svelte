@@ -11,7 +11,7 @@
 				<div class="w-full h-[250px] bg-gray-500 rounded-[20px]">
 					{#if episode.still_path}
 						<img
-							src={import.meta.env.VITE_TMDB_IMAGE_URL + episode.still_path}
+							src={import.meta.env.VITE_TMDB_IMAGE_URL_STILL + episode.still_path}
 							alt={episode.name}
 							class="w-full h-full object-cover rounded-[20px]"
 						/>

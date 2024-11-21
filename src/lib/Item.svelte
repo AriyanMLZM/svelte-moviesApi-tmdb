@@ -14,7 +14,7 @@
 	<div class="w-full h-full bg-gray-300 rounded-t-[20px]">
 		{#if !imageError}
 			<img
-				src="https://image.tmdb.org/t/p/original{item.poster}"
+				src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + item.poster}
 				alt={item.title}
 				class="w-full h-full object-cover rounded-t-[20px]"
 				on:error={() => (imageError = true)}

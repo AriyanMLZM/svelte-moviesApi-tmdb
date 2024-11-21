@@ -29,7 +29,7 @@
 					<div class="w-full bg-gray-500 rounded-[20px]">
 						{#if trend.poster_path}
 							<img
-								src={import.meta.env.VITE_TMDB_IMAGE_URL + trend.poster_path}
+								src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + trend.poster_path}
 								alt={trend.name || trend.title}
 								class="w-full h-full object-cover rounded-[20px]"
 							/>

@@ -9,7 +9,7 @@
 >
 	<div class="w-[300px] h-[300px]">
 		<img
-			src="https://image.tmdb.org/t/p/original{tv.backgroundImage}"
+			src={import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND + tv.backgroundImage}
 			alt={tv.title}
 			class="w-full h-full object-cover rounded-[20px]"
 		/>

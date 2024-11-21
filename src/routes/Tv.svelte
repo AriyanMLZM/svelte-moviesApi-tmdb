@@ -70,7 +70,7 @@
 {:then tv}
 	<section
 		class="w-full h-full bg-center bg-cover"
-		style:background-image="url({import.meta.env.VITE_TMDB_IMAGE_URL +
+		style:background-image="url({import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 			tv.backgroundImage})"
 	>
 		<div

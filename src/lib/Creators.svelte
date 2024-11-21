@@ -11,7 +11,7 @@
 			<div class="w-[100px] h-[120px] bg-gray-500 rounded-[20px]">
 				{#if person.profile_path}
 					<img
-						src={import.meta.env.VITE_TMDB_IMAGE_URL + person.profile_path}
+						src={import.meta.env.VITE_TMDB_IMAGE_URL_PROFILE + person.profile_path}
 						alt={person.name}
 						class="w-full h-full object-cover rounded-[20px]"
 					/>

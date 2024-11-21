@@ -16,7 +16,7 @@
 			`https://api.themoviedb.org/3/movie/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
 		)
 		const {
-			original_title: title,
+			title: title,
 			release_date: releaseDate,
 			poster_path: poster,
 			vote_average: vote,
@@ -58,7 +58,7 @@
 {:then movie}
 	<section
 		class="w-full h-full bg-center bg-cover"
-		style:background-image="url({import.meta.env.VITE_TMDB_IMAGE_URL +
+		style:background-image="url({import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 			movie.backgroundImage})"
 	>
 		<div
