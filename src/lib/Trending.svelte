@@ -24,21 +24,24 @@
 		class="grid grid-cols-3 md:grid-cols-6 gap-[20px] px-[20px] mb-[40px]"
 	>
 		{#each trendings as trend}
-			<a href="/{type}/{trend.id}" use:link class="flex justify-center">
-				<div class="flex flex-col gap-[10px]">
-					<div class="w-full bg-gray-500 rounded-[20px]">
-						{#if trend.poster_path}
-							<img
-								src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + trend.poster_path}
-								alt={trend.name || trend.title}
-								class="w-full h-full object-cover rounded-[20px]"
-							/>
-						{/if}
-					</div>
-					<h2 class="text-[1rem] font-bold text-white text-center">
-						{trend.name || trend.title}
-					</h2>
+			<a
+				href="/{type}/{trend.id}"
+				use:link
+				class="flex w-full flex-col gap-[10px] justify-between"
+			>
+				<div class="w-full min-h-[120px] bg-gray-500 rounded-[20px]">
+					{#if trend.poster_path}
+						<img
+							src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER +
+								trend.poster_path}
+							alt={trend.name || trend.title}
+							class="w-full h-full object-cover rounded-[20px]"
+						/>
+					{/if}
 				</div>
+				<h2 class="text-[1rem] font-bold text-white text-center">
+					{trend.name || trend.title}
+				</h2>
 			</a>
 		{/each}
 	</section>

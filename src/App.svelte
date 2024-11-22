@@ -30,7 +30,7 @@
 	main {
 		background: linear-gradient(
 			45deg,
-			rgba(97, 97, 97, 1) 38%,
+			rgb(19, 19, 19) 38%,
 			rgba(254, 87, 2, 1) 100%
 		);
 	}
