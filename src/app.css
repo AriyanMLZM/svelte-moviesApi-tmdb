@@ -5,7 +5,8 @@
 html {
 	@apply text-[17px]
   sm:text-[19px] 
-  md:text-[22px];
+  md:text-[22px]
+	bg-primary;
 }
 
 .flex-center {

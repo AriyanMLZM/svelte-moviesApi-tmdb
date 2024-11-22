@@ -18,7 +18,7 @@
 	</div>
 	<div class="w-full px-[0.7rem] py-[10px] select-none">
 		<h1
-			class="text-[0.8rem] font-bold text-left w-full overflow-hidden overflow-ellipsis text-nowrap"
+			class="text-[0.9rem] font-bold text-left w-full overflow-hidden overflow-ellipsis text-nowrap"
 		>
 			{item.title}
 		</h1>

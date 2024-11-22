@@ -39,7 +39,7 @@
 						/>
 					{/if}
 				</div>
-				<h2 class="text-[1rem] font-bold text-white text-center">
+				<h2 class="text-[0.9rem] font-bold text-white text-center">
 					{trend.name || trend.title}
 				</h2>
 			</a>

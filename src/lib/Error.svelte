@@ -3,7 +3,7 @@
 	import { errorImage } from '../assets/images/index.svelte'
 </script>
 
-<section class="w-full flex-col p-[50px] flex-center">
+<section class="w-full h-full flex-col flex-center">
 	<img draggable="false" src={errorImage} alt="not-found" width="200px" />
 	<p class="text-white font-bold text-[1.2rem]">{msg}!</p>
 	<button

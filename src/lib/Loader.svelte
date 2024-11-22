@@ -1,4 +1,4 @@
-<div class="w-full flex-center flex-col text-[20px] gap-[20px] p-[50px]">
+<div class="w-full h-full flex-center flex-col text-[20px] gap-[20px]">
 	<span class="loader"></span>
 </div>
 
