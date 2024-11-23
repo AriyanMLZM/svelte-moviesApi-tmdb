@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { link } from 'svelte-spa-router'
+	import { fly } from 'svelte/transition'
 	import { Error, Loader } from '../lib/index.svelte'
 
 	export let type: string
@@ -21,6 +22,7 @@
 	<Loader />
 {:then trendings}
 	<section
+		in:fly={{ y: 200, duration: 1000 }}
 		class="grid grid-cols-3 md:grid-cols-6 gap-[20px] px-[20px] mb-[40px]"
 	>
 		{#each trendings as trend}
@@ -29,7 +31,9 @@
 				use:link
 				class="flex w-full flex-col gap-[10px] justify-between"
 			>
-				<div class="w-full min-h-[120px] bg-gray-500 rounded-[20px]">
+				<div
+					class="w-full min-h-[120px] bg-white/20 text-white text-[0.8rem] rounded-[20px]"
+				>
 					{#if trend.poster_path}
 						<img
 							src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER +

@@ -1,17 +1,24 @@
 <script lang="ts">
+	import { fly } from 'svelte/transition'
 	import type { IEpisode } from '../types/index.svelte'
 
 	export let episodes: IEpisode[]
 </script>
 
-<section class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[20px]">
+<section
+	in:fly={{ y: 200, duration: 1000 }}
+	class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[20px]"
+>
 	{#each episodes as episode}
 		<div class="flex justify-center">
 			<div class="flex flex-col w-[450px] gap-[20px] p-[20px]">
-				<div class="w-full h-[250px] bg-gray-500 rounded-[20px]">
+				<div
+					class="w-full h-[250px] bg-white/20 text-white text-[0.8rem] rounded-[20px]"
+				>
 					{#if episode.still_path}
 						<img
-							src={import.meta.env.VITE_TMDB_IMAGE_URL_STILL + episode.still_path}
+							src={import.meta.env.VITE_TMDB_IMAGE_URL_STILL +
+								episode.still_path}
 							alt={episode.name}
 							class="w-full h-full object-cover rounded-[20px]"
 						/>

@@ -8,7 +8,7 @@
 >
 	{#each creators as person}
 		<div class="flex">
-			<div class="w-[100px] h-[120px] bg-gray-500 rounded-[20px]">
+			<div class="w-[100px] h-[120px] bg-white/20 text-white text-[0.8rem] rounded-[20px]">
 				{#if person.profile_path}
 					<img
 						src={import.meta.env.VITE_TMDB_IMAGE_URL_PROFILE + person.profile_path}

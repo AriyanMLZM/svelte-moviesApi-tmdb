@@ -16,7 +16,7 @@
 			use:link
 			class="flex-center flex-col hover:bg-white/30 active:bg-white/30 rounded-[20px] p-[20px]"
 		>
-			<div class="w-[300px] bg-gray-500 rounded-[20px]">
+			<div class="w-[300px] bg-white/20 text-white text-[0.8rem] min-h-[120px] rounded-[20px]">
 				{#if season.poster_path}
 					<img
 						src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER +

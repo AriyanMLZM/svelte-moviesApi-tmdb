@@ -1,15 +1,20 @@
 <script lang="ts">
+	import { fly } from 'svelte/transition'
 	import type { IMovie } from '../types/index.svelte'
 
 	export let movie: IMovie
 </script>
 
 <div
+	in:fly={{ y: 100, duration: 1000 }}
 	class="w-full flex justify-center gap-[40px] items-center flex-col md:justify-normal md:items-start md:flex-row"
 >
-	<div class="w-[300px] h-[300px]">
+	<div
+		class="w-[300px] h-[300px] bg-white/20 text-white text-[0.8rem] rounded-[20px]"
+	>
 		<img
-			src={import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND + movie.backgroundImage}
+			src={import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
+				movie.backgroundImage}
 			alt={movie.title}
 			class="w-full h-full object-cover rounded-[20px]"
 		/>

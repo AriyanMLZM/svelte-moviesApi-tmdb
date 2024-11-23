@@ -9,7 +9,7 @@
 	use:link
 	class="bg-black/50 hover:bg-white/30 active:bg-white/30 rounded-[20px] w-full flex justify-between flex-col hover:text-black active:text-black text-white"
 >
-	<div class="w-full h-full bg-gray-300 rounded-t-[20px]">
+	<div class="w-full h-full bg-gray-500/40 text-white text-[0.8rem] rounded-t-[20px]">
 		<img
 			src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + item.poster}
 			alt={item.title}
