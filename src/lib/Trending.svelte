@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { link } from 'svelte-spa-router'
 	import { fly } from 'svelte/transition'
-	import { Error, Loader } from '../lib/index.svelte'
+	import { Error, Image, Loader } from '../lib/index.svelte'
 
 	export let type: string
 
@@ -31,17 +31,11 @@
 				use:link
 				class="flex w-full flex-col gap-[10px] justify-between"
 			>
-				<div
-					class="w-full min-h-[120px] bg-white/20 text-white text-[0.8rem] rounded-[20px]"
-				>
-					{#if trend.poster_path}
-						<img
-							src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER +
-								trend.poster_path}
-							alt={trend.name || trend.title}
-							class="w-full h-full object-cover rounded-[20px]"
-						/>
-					{/if}
+				<div class="w-full min-h-[120px] rounded-[20px] overflow-hidden">
+					<Image
+						src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + trend.poster_path}
+						alt={trend.name || trend.title}
+					/>
 				</div>
 				<h2 class="text-[0.9rem] font-bold text-white text-center">
 					{trend.name || trend.title}

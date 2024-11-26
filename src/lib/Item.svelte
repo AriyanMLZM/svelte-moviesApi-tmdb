@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { link } from 'svelte-spa-router'
+	import { Image } from './index.svelte'
 	export let item
 	export let type
 </script>
@@ -9,11 +10,10 @@
 	use:link
 	class="bg-black/50 hover:bg-white/30 active:bg-white/30 rounded-[20px] w-full flex justify-between flex-col hover:text-black active:text-black text-white"
 >
-	<div class="w-full h-full bg-gray-500/40 text-white text-[0.8rem] rounded-t-[20px]">
-		<img
+	<div class="w-full h-full min-h-[120px] rounded-t-[20px] overflow-hidden">
+		<Image
 			src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + item.poster}
 			alt={item.title}
-			class="w-full h-full object-cover rounded-t-[20px]"
 		/>
 	</div>
 	<div class="w-full px-[0.7rem] py-[10px] select-none">

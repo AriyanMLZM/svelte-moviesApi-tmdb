@@ -12,6 +12,7 @@ import Networks from './Networks.svelte'
 import BackButton from './BackButton.svelte'
 import EpisodesList from './EpisodesList.svelte'
 import Trending from './Trending.svelte'
+import Image from './Image.svelte'
 
 export {
 	Navbar,
@@ -28,4 +29,5 @@ export {
 	BackButton,
 	EpisodesList,
 	Trending,
+	Image,
 }

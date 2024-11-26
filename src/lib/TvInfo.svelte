@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition'
 	import type { ITv } from '../types/index.svelte'
+	import { Image } from './index.svelte'
 
 	export let tv: ITv
 </script>
@@ -9,13 +10,10 @@
 	in:fly={{ y: 100, duration: 1000 }}
 	class="w-full flex justify-center items-center flex-col md:justify-normal md:items-start md:flex-row gap-[40px]"
 >
-	<div
-		class="w-[300px] h-[300px] bg-white/20 text-white text-[0.8rem] rounded-[20px]"
-	>
-		<img
+	<div class="w-[300px] h-[300px] rounded-[20px] overflow-hidden">
+		<Image
 			src={import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND + tv.backgroundImage}
 			alt={tv.title}
-			class="w-full h-full object-cover rounded-[20px]"
 		/>
 	</div>
 	<div class="text-white">
