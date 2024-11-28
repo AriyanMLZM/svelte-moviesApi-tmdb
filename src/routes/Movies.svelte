@@ -1,7 +1,6 @@
 <script lang="ts">
 	import movies from '../constants/tmdb-ids.movies.json'
-	import { List, Error } from '../lib/index.svelte'
-	import { Loader, Trending } from '../lib/index.svelte'
+	import { List, Error, Loader, Trending } from '../lib/index.svelte'
 	import type { IApiMovie } from '../types/index.svelte'
 
 	document.title = 'Movotopia | Movie'

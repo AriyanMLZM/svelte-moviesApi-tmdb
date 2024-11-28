@@ -4,5 +4,6 @@ import NotFound from './NotFound.svelte'
 import Tv from './Tv.svelte'
 import Movie from './Movie.svelte'
 import Season from './Season.svelte'
+import Search from './Search.svelte'
 
-export { Movies, Tvs, NotFound, Movie, Tv, Season }
+export { Movies, Tvs, NotFound, Movie, Tv, Season, Search }

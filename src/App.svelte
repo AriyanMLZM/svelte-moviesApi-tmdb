@@ -8,6 +8,7 @@
 		Tv,
 		Movie,
 		Season,
+		Search,
 	} from './routes/index.svelte'
 	import { Navbar } from './lib/index.svelte'
 
@@ -17,6 +18,7 @@
 		'/movie/:id': Movie,
 		'/tv/:id': Tv,
 		'/season/:id/:seasonNum': Season,
+		'/search': Search,
 		'*': NotFound,
 	}
 </script>

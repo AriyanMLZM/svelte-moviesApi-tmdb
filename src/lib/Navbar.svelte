@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { link } from 'svelte-spa-router'
+	import Icon from '@iconify/svelte'
 </script>
 
 <nav
@@ -13,4 +14,11 @@
 		href="/tvs"
 		use:link>TV</a
 	>
+	<a
+		class="font-bold hover:text-primary active:text-primary"
+		href="/search"
+		use:link
+	>
+		<Icon icon="lucide:search" class="text-[1rem]" />
+	</a>
 </nav>
