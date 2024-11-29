@@ -30,10 +30,10 @@
 	}
 </script>
 
+<Trending type="tv" />
 {#await getData()}
 	<Loader />
 {:then tvsData}
-	<Trending type="tv" />
 	<List data={tvsData} type={'tv'} />
 {:catch error}
 	<Error msg={error.message} />

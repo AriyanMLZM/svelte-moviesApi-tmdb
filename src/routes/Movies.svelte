@@ -30,10 +30,10 @@
 	}
 </script>
 
+<Trending type="movie" />
 {#await getData()}
 	<Loader />
 {:then moviesData}
-	<Trending type="movie" />
 	<List data={moviesData} type={'movie'} />
 {:catch error}
 	<Error msg={error.message} />
