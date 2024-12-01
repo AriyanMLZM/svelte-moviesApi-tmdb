@@ -13,6 +13,7 @@ import BackButton from './BackButton.svelte'
 import EpisodesList from './EpisodesList.svelte'
 import Trending from './Trending.svelte'
 import Image from './Image.svelte'
+import PageSelector from './PageSelector.svelte'
 
 export {
 	Navbar,
@@ -30,4 +31,5 @@ export {
 	EpisodesList,
 	Trending,
 	Image,
+	PageSelector,
 }
