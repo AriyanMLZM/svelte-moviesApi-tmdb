@@ -10,7 +10,7 @@ export default defineConfig({
 			manifest: {
 				short_name: 'Movotopia',
 				name: 'Movotopia',
-				start_url: '/svelte-moviesApi-tmdb',
+				scope: '/svelte-moviesApi-tmdb',
 				display: 'standalone',
 				background_color: '#222222',
 				description: 'Search and list the Movies and Tv-shows.',
