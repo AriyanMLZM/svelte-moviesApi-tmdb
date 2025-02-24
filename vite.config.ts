@@ -6,6 +6,7 @@ export default defineConfig({
 	plugins: [
 		svelte(),
 		VitePWA({
+			selfDestroying: true,
 			registerType: 'autoUpdate',
 			manifest: {
 				short_name: 'Movotopia',
