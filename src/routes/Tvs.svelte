@@ -51,7 +51,7 @@
 </script>
 
 <Trending type="tv" />
-<PageSelector {pages} {changeIndex} {index} />
+<PageSelector {pages} {changeIndex} {index} {length} />
 {#await gettingTvs}
 	<Loader />
 {:then tvsData}
@@ -59,4 +59,4 @@
 {:catch error}
 	<Error msg={error.message} />
 {/await}
-<PageSelector {pages} {changeIndex} {index} />
+<PageSelector {pages} {changeIndex} {index} {length} />

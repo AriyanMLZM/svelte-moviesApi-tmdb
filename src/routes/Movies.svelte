@@ -56,7 +56,7 @@
 </script>
 
 <Trending type="movie" />
-<PageSelector {pages} {changeIndex} {index} />
+<PageSelector {pages} {changeIndex} {index} {length} />
 {#await gettingMovies}
 	<Loader />
 {:then moviesData}
@@ -64,4 +64,4 @@
 {:catch error}
 	<Error msg={error.message} />
 {/await}
-<PageSelector {pages} {changeIndex} {index} />
+<PageSelector {pages} {changeIndex} {index} {length} />
