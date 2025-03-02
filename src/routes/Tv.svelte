@@ -13,6 +13,8 @@
 
 	export let params
 
+	let docTitle = 'Loading...'
+
 	const getData = async () => {
 		const resTmdb = await fetch(
 			`https://api.themoviedb.org/3/tv/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
@@ -36,6 +38,7 @@
 			networks,
 		} = (await resTmdb.json()) as IApiTv
 
+		docTitle = title
 		return {
 			title,
 			poster,
@@ -65,13 +68,17 @@
 	}
 </script>
 
+<svelte:head>
+	<title>{docTitle}</title>
+</svelte:head>
+
 {#await getData()}
 	<Loader />
 {:then tv}
 	<section
 		class="w-full h-full bg-center bg-cover"
-		style:background-image="url({import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
-			tv.backgroundImage})"
+		style:background-image="url({import.meta.env
+			.VITE_TMDB_IMAGE_URL_BACKGROUND + tv.backgroundImage})"
 	>
 		<div
 			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto px-[20px] pb-[60px]"

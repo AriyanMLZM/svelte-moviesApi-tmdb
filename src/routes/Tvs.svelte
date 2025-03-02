@@ -3,8 +3,6 @@
 	import { List, Error, Trending, PageSelector } from '../lib/index.svelte'
 	import { Loader } from '../lib/index.svelte'
 
-	document.title = 'Movotopia | Tv'
-
 	const packSize = 20
 	const length = tvs.length
 	const pages = Math.ceil(length / packSize)
@@ -49,6 +47,10 @@
 		return data
 	}
 </script>
+
+<svelte:head>
+	<title>Movotopia | Tv</title>
+</svelte:head>
 
 <Trending type="tv" />
 <PageSelector {pages} {changeIndex} {index} {length} />

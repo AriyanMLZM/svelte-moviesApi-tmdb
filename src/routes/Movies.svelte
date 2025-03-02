@@ -8,7 +8,6 @@
 		PageSelector,
 	} from '../lib/index.svelte'
 	import type { IApiMovie } from '../types/index.svelte'
-	document.title = 'Movotopia | Movie'
 
 	const packSize = 20
 	const length = movies.length
@@ -54,6 +53,10 @@
 		return data
 	}
 </script>
+
+<svelte:head>
+	<title>Movotopia | Movie</title>
+</svelte:head>
 
 <Trending type="movie" />
 <PageSelector {pages} {changeIndex} {index} {length} />
