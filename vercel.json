@@ -10,5 +10,11 @@
 				"deployment": false
 			}
 		}
-	}
+	},
+	"rewrites": [
+		{
+			"source": "/(.*)",
+			"destination": "/"
+		}
+	]
 }
