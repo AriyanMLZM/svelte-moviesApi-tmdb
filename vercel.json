@@ -13,12 +13,8 @@
 	},
 	"rewrites": [
 		{
-			"source": "/svelte-moviesApi-tmdb/(.*)",
-			"destination": "/"
-		},
-		{
-			"source": "/svelte-moviesApi-tmdb",
-			"destination": "/"
+			"source": "/(.*)",
+			"destination": "/index.html"
 		}
 	]
 }
