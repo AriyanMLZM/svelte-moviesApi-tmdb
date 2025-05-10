@@ -24,16 +24,6 @@
 </script>
 
 <Navbar />
-<main class="w-full h-screen overflow-y-auto list-scroll">
+<main>
 	<Router {routes} />
 </main>
-
-<style>
-	main {
-		background: linear-gradient(
-			45deg,
-			rgb(19, 19, 19) 38%,
-			rgba(254, 87, 2, 1) 100%
-		);
-	}
-</style>

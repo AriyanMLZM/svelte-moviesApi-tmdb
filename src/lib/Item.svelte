@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { link } from 'svelte-spa-router'
 	import { Image } from './index.svelte'
-	import type { IApiMovie } from '../types/IMovie.svelte'
-	import Error from './Error.svelte'
+	import Icon from '@iconify/svelte'
 	export let item
 	export let type
 
@@ -61,8 +60,11 @@
 			</div>
 		</div>
 	</a>
-{:catch error}
-	<div class="w-full bg-black/50 rounded-[20px]">
-		<Error msg={error.message} />
+{:catch}
+	<div class="w-full bg-black/50 min-h-[150px] rounded-[20px] flex-center">
+		<Icon
+			icon="material-symbols:error-rounded"
+			class="text-white text-[1.8rem]"
+		/>
 	</div>
 {/await}

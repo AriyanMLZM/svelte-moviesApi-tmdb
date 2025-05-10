@@ -73,15 +73,23 @@
 </svelte:head>
 
 {#await getData()}
-	<Loader />
+	<div class="h-screen w-full bg-black/80">
+		<Loader />
+	</div>
 {:then tv}
 	<section
-		class="w-full h-full bg-center bg-cover"
-		style:background-image="url({import.meta.env
-			.VITE_TMDB_IMAGE_URL_BACKGROUND + tv.backgroundImage})"
+		class="w-full min-h-screen"
+		style="
+			background-image: url('{import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
+			tv.backgroundImage}');
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		"
 	>
 		<div
-			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto px-[20px] pb-[60px]"
+			class="w-full h-full bg-black/80 backdrop-blur-[3px] px-[20px] pb-[60px]"
 		>
 			<BackButton />
 			<TvInfo {tv} />
@@ -89,7 +97,9 @@
 			<Networks networks={tv.networks} />
 			<Creators creators={tv.creators} role="Creator" />
 			{#await getCast()}
-				<Loader />
+				<div class="h-[200px] w-full">
+					<Loader />
+				</div>
 			{:then cast}
 				<CastList {cast} />
 			{:catch error}

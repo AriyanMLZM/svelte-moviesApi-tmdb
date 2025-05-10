@@ -19,7 +19,9 @@
 	Trending
 </h2>
 {#await getData()}
-	<Loader />
+	<div class="h-[200px] w-full">
+		<Loader />
+	</div>
 {:then trendings}
 	<section
 		in:fly={{ y: 200, duration: 1000 }}

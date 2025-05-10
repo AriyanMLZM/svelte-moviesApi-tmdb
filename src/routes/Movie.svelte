@@ -61,20 +61,30 @@
 </svelte:head>
 
 {#await getData()}
-	<Loader />
+	<div class="h-screen w-full bg-black/80">
+		<Loader />
+	</div>
 {:then movie}
 	<section
-		class="w-full h-full bg-center bg-cover"
-		style:background-image="url({import.meta.env
-			.VITE_TMDB_IMAGE_URL_BACKGROUND + movie.backgroundImage})"
+		class="w-full min-h-screen"
+		style="
+			background-image: url('{import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
+			movie.backgroundImage}');
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		"
 	>
 		<div
-			class="page-scroll w-full h-full bg-black/80 backdrop-blur-[3px] overflow-y-auto px-[20px] pb-[60px]"
+			class="w-full h-full bg-black/80 backdrop-blur-[3px] px-[20px] pb-[60px]"
 		>
 			<BackButton />
 			<MovieInfo {movie} />
 			{#await getCast()}
-				<Loader />
+				<div class="h-[200px] w-full">
+					<Loader />
+				</div>
 			{:then cast}
 				<Creators creators={cast.directors} role={'Director'} />
 				<CastList cast={cast.actors} />
