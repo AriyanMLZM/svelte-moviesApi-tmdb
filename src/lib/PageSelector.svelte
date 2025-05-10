@@ -15,7 +15,7 @@
 		/>
 	</button>
 	<div>
-		<h2 class="text-[1.2rem] text-white font-bold">{index + 1} / {pages}</h2>
+		<h2 class="text-[1.2rem] text-white font-bold">{index} / {pages}</h2>
 	</div>
 	<h2 class="text-[1.2rem] text-white font-bold"> - {length}</h2>
 	<button on:click={() => changeIndex('up')} type="button">

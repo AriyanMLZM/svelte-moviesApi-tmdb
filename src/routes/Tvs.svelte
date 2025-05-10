@@ -3,20 +3,18 @@
 	import { List, Error, Trending, PageSelector } from '../lib/index.svelte'
 	import { Loader } from '../lib/index.svelte'
 
-	const packSize = 18
+	const packSize = 20
 	const length = tvs.length
 	const pages = Math.ceil(length / packSize)
-	let index = 0
-
-	$: gettingTvs = getData(index)
+	let index = 1
 
 	const changeIndex = (action: string) => {
 		switch (action) {
 			case 'up':
-				index = index === pages - 1 ? 0 : index + 1
+				index = index === pages ? 1 : index + 1
 				break
 			case 'down':
-				index = index === 0 ? pages - 1 : index - 1
+				index = index === 1 ? pages : index - 1
 				break
 		}
 	}
@@ -46,6 +44,8 @@
 		}
 		return data
 	}
+
+	$: paginatedItems = tvs.slice((index - 1) * packSize, index * packSize)
 </script>
 
 <svelte:head>
@@ -54,11 +54,5 @@
 
 <Trending type="tv" />
 <PageSelector {pages} {changeIndex} {index} {length} />
-{#await gettingTvs}
-	<Loader />
-{:then tvsData}
-	<List data={tvsData} type={'tv'} />
-{:catch error}
-	<Error msg={error.message} />
-{/await}
+<List data={paginatedItems} type={'tv'} />
 <PageSelector {pages} {changeIndex} {index} {length} />
