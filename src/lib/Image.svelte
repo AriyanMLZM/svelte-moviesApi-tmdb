@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Icon from "@iconify/svelte"
+
 	export let src: string
 	export let alt: string
 	let loading = true
@@ -20,6 +22,9 @@
 			}}
 		/>
 	{:else}
-		<h1 class="text-[1.5rem] text-[#111] font-bold">403</h1>
+		<Icon
+			icon="clarity:image-solid"
+			class="text-[#111] text-[1.8rem]"
+		/>
 	{/if}
 </div>

@@ -9,7 +9,7 @@
 	} from '../lib/index.svelte'
 	import type { IApiMovie } from '../types/index.svelte'
 
-	const packSize = 20
+	const packSize = 18
 	const length = movies.length
 	const pages = Math.ceil(length / packSize)
 	let index = 0
@@ -29,8 +29,8 @@
 
 	const getData = async (index: number) => {
 		let data = []
-		const start = index * 20
-		const end = index === pages - 1 ? length : (index + 1) * 20
+		const start = index * packSize
+		const end = index === pages - 1 ? length : (index + 1) * packSize
 		for (let i = start; i < end; i++) {
 			const resTmdb = await fetch(
 				`https://api.themoviedb.org/3/movie/${movies[i].id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
