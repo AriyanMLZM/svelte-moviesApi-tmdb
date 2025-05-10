@@ -46,5 +46,5 @@ export default defineConfig({
 			},
 		}),
 	],
-	base: '/svelte-moviesApi-tmdb/',
+	// base: '/svelte-moviesApi-tmdb/',
 })
