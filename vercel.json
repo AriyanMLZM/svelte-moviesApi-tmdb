@@ -11,10 +11,14 @@
 			}
 		}
 	},
-	"routes": [
+	"rewrites": [
 		{
-			"src": "/svelte-moviesApi-tmdb/.*",
-			"dest": "/"
+			"source": "/svelte-moviesApi-tmdb/(.*)",
+			"destination": "/"
+		},
+		{
+			"source": "/svelte-moviesApi-tmdb",
+			"destination": "/"
 		}
 	]
 }
