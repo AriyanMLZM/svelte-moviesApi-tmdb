@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte'
 	import tvs from '../constants/tmdb-ids.series.json'
 	import { List, Trending, PageSelector } from '../lib/index.svelte'
+	import { restoreScroll, saveScroll } from '../utils/scrollManager'
 
 	const packSize = 20
 	const length = tvs.length
@@ -9,17 +10,8 @@
 	const storedPage = Number(localStorage.getItem('pageTvs'))
 	let index: number = storedPage < 1 || storedPage > pages ? 1 : storedPage
 
-	const handleScroll = () => {
-		localStorage.setItem('scrollPos_tvs', window.scrollY.toString())
-	}
-
 	onMount(() => {
-		const storedPos = localStorage.getItem('scrollPos_tvs')
-		if (storedPos) {
-			setTimeout(() => {
-				window.scrollTo({ top: Number(storedPos), behavior: 'instant' })
-			}, 50)
-		}
+		restoreScroll('tvs')
 	})
 
 	const changeIndex = (action: string) => {
@@ -41,7 +33,7 @@
 	<title>Movotopia | Tv</title>
 </svelte:head>
 
-<svelte:window on:scroll={handleScroll} />
+<svelte:window on:scroll={() => saveScroll('tvs')} />
 
 <Trending type="tv" />
 <PageSelector {pages} {changeIndex} {index} {length} />

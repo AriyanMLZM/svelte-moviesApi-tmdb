@@ -11,19 +11,13 @@
 		BackButton,
 	} from '../lib/index.svelte'
 	import type { IApiTv } from '../types/index.svelte'
+	import { scrollTop } from '../utils/scrollManager'
 
 	export let params
 
 	let docTitle = 'Loading...'
 
-	onMount(() => {
-		setTimeout(() => {
-			window.scrollTo({
-				top: 0,
-				behavior: 'instant',
-			})
-		}, 50)
-	})
+	onMount(() => scrollTop())
 
 	const getData = async () => {
 		const resTmdb = await fetch(
