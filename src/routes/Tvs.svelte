@@ -47,10 +47,3 @@
 <PageSelector {pages} {changeIndex} {index} {length} />
 <List data={paginatedItems} type={'tv'} />
 <PageSelector {pages} {changeIndex} {index} {length} />
-<footer
-	class="w-full bg-black/50 text-white text-[0.8rem] mt-[60px] h-[80px] flex-center"
->
-	<a href="http://github.com/AriyanMlzm" target="_blank">
-		Developed by @AriyanMlzm
-	</a>
-</footer>

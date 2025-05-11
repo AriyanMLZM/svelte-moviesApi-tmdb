@@ -25,3 +25,10 @@
 
 <Navbar />
 <Router {routes} />
+<footer
+	class="w-full bg-black/50 text-white text-[0.8rem] pt-[60px] pb-[40px] flex-center"
+>
+	<a href="http://github.com/AriyanMlzm" target="_blank">
+		Developed by @AriyanMlzm
+	</a>
+</footer>
