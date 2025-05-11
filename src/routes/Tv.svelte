@@ -82,7 +82,7 @@
 	</div>
 {:then tv}
 	<div
-		class="w-full h-screen"
+		class="w-full min-h-screen"
 		style="
 			background-image: url('{import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 			tv.backgroundImage}');
