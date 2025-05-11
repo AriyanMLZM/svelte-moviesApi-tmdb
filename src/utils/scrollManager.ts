@@ -14,7 +14,10 @@ export const restoreScroll = (route: string) => {
 		observer = new MutationObserver(() => {
 			if (document.readyState === 'complete') {
 				setTimeout(() => {
-					window.scrollTo({ top: restoreY, behavior: 'smooth' })
+					window.scrollTo({
+						top: restoreY,
+						behavior: 'smooth',
+					})
 					observer.disconnect()
 					resolve()
 				}, 50)
