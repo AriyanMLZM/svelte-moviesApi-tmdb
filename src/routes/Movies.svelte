@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onDestroy, onMount, tick } from 'svelte'
+	import { onDestroy, onMount } from 'svelte'
 	import movies from '../constants/tmdb-ids.movies.json'
 	import { List, Trending, PageSelector } from '../lib/index.svelte'
 
@@ -17,7 +17,7 @@
 		const storedPos = localStorage.getItem('scrollPos_movies')
 		if (storedPos) {
 			setTimeout(() => {
-				window.scrollTo({ top: Number(storedPos), behavior: 'smooth' })
+				window.scrollTo({ top: Number(storedPos), behavior: 'instant' })
 			}, 50)
 		}
 	})
@@ -47,4 +47,3 @@
 <PageSelector {pages} {changeIndex} {index} {length} />
 <List data={paginatedItems} type={'movie'} />
 <PageSelector {pages} {changeIndex} {index} {length} />
-

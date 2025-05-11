@@ -50,23 +50,29 @@
 		bind:this={inputEl}
 	/>
 </section>
-{#await searchingMovies}
-	<Loader />
-{:then result: any}
-	{#if result.modifiedResults}
-		<h2 class="text-[1.2rem] text-white text-center">Movies</h2>
-	{/if}
-	<List data={result.modifiedResults} type={result.type} />
-{:catch error}
-	<Error msg={error.message} />
-{/await}
-{#await searchingTvs}
-	<Loader />
-{:then result: any}
-	{#if result.modifiedResults}
-		<h2 class="text-[1.2rem] text-white text-center">Shows</h2>
-	{/if}
-	<List data={result.modifiedResults} type={result.type} />
-{:catch error}
-	<Error msg={error.message} />
-{/await}
+<div class="min-h-screen">
+	{#await searchingMovies}
+		<div class="w-full h-[250px]">
+			<Loader />
+		</div>
+	{:then result: any}
+		{#if result.modifiedResults}
+			<h2 class="text-[1.2rem] text-white text-center">Movies</h2>
+		{/if}
+		<List data={result.modifiedResults} type={result.type} />
+	{:catch error}
+		<Error msg={error.message} />
+	{/await}
+	{#await searchingTvs}
+		<div class="w-full h-[250px]">
+			<Loader />
+		</div>
+	{:then result: any}
+		{#if result.modifiedResults}
+			<h2 class="text-[1.2rem] text-white text-center">Shows</h2>
+		{/if}
+		<List data={result.modifiedResults} type={result.type} />
+	{:catch error}
+		<Error msg={error.message} />
+	{/await}
+</div>

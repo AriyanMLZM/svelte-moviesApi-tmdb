@@ -8,7 +8,7 @@
 
 <div
 	in:fly={{ y: 100, duration: 1000 }}
-	class="w-full flex justify-center gap-[40px] items-center flex-col md:justify-normal md:items-start md:flex-row"
+	class="w-full flex justify-center gap-[40px] items-center flex-col lg:justify-normal lg:items-start lg:flex-row"
 >
 	<div class="w-[300px] h-[300px] rounded-[20px] overflow-hidden">
 		<Image
@@ -42,8 +42,8 @@
 			{movie.vote}
 		</h2>
 	</div>
-	<div class="p-[10px] md:p-[50px]">
-		<h2 class="text-white text-[1.1rem]">" {movie.tagline} "</h2>
+	<div class="p-[10px] md:p-[30px] max-w-[500px]">
+		<h2 class="text-white text-[1rem]">" {movie.tagline} "</h2>
 	</div>
 </div>
 <div class="p-[20px] mt-[20px]">

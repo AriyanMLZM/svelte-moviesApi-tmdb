@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte'
 	import {
 		Error,
 		Loader,
@@ -12,6 +13,15 @@
 	export let params
 
 	let docTitle = 'Loading...'
+
+	onMount(() => {
+		setTimeout(() => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'instant',
+			})
+		}, 50)
+	})
 
 	const getData = async () => {
 		const resTmdb = await fetch(
@@ -65,34 +75,37 @@
 		<Loader />
 	</div>
 {:then movie}
-	<section
+	<div
 		class="w-full min-h-screen"
 		style="
 			background-image: url('{import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 			movie.backgroundImage}');
-			background-attachment: fixed;
 			background-position: center;
-			background-repeat: no-repeat;
 			background-size: cover;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
 		"
+	></div>
+	<div
+		class="w-full min-h-screen bg-black/80 backdrop-blur-[3px] px-[20px] pb-[60px]"
 	>
-		<div
-			class="w-full h-full bg-black/80 backdrop-blur-[3px] px-[20px] pb-[60px]"
-		>
-			<BackButton />
-			<MovieInfo {movie} />
-			{#await getCast()}
-				<div class="h-[200px] w-full">
-					<Loader />
-				</div>
-			{:then cast}
-				<Creators creators={cast.directors} role={'Director'} />
-				<CastList cast={cast.actors} />
-			{:catch error}
-				<Error msg={error.message} />
-			{/await}
-		</div>
-	</section>
+		<BackButton />
+		<MovieInfo {movie} />
+		{#await getCast()}
+			<div class="h-[200px] w-full">
+				<Loader />
+			</div>
+		{:then cast}
+			<Creators creators={cast.directors} role={'Director'} />
+			<CastList cast={cast.actors} />
+		{:catch error}
+			<Error msg={error.message} />
+		{/await}
+	</div>
 {:catch error}
 	<Error msg={error.message} />
 {/await}

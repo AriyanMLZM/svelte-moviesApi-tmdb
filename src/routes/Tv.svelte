@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte'
 	import {
 		Error,
 		Loader,
@@ -14,6 +15,15 @@
 	export let params
 
 	let docTitle = 'Loading...'
+
+	onMount(() => {
+		setTimeout(() => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'instant',
+			})
+		}, 50)
+	})
 
 	const getData = async () => {
 		const resTmdb = await fetch(

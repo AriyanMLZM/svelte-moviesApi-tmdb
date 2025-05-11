@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onDestroy, onMount } from 'svelte'
+	import { onMount } from 'svelte'
 	import tvs from '../constants/tmdb-ids.series.json'
 	import { List, Trending, PageSelector } from '../lib/index.svelte'
 
@@ -17,7 +17,7 @@
 		const storedPos = localStorage.getItem('scrollPos_tvs')
 		if (storedPos) {
 			setTimeout(() => {
-				window.scrollTo({ top: Number(storedPos), behavior: 'smooth' })
+				window.scrollTo({ top: Number(storedPos), behavior: 'instant' })
 			}, 50)
 		}
 	})
