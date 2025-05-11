@@ -26,7 +26,7 @@ export const restoreScroll = (route: string) => {
 }
 
 export const scrollTop = () => {
-	setTimeout(() => {
+	requestAnimationFrame(() => {
 		window.scrollTo(0, 0)
-	}, 50)
+	})
 }
