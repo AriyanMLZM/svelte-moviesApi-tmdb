@@ -12,14 +12,12 @@ export const restoreScroll = (route: string) => {
 		if (observer) observer.disconnect()
 
 		observer = new MutationObserver(() => {
-			if (document.readyState === 'complete' || document.body) {
-				const maxY = document.body.scrollHeight - window.innerHeight
-
-				if (maxY >= restoreY) {
+			if (document.readyState === 'complete') {
+				setTimeout(() => {
 					window.scrollTo(0, restoreY)
 					observer.disconnect()
 					resolve()
-				}
+				}, 50)
 			}
 		})
 
