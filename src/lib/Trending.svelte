@@ -24,7 +24,7 @@
 	</div>
 {:then trendings}
 	<section
-		in:fly={{ y: 200, duration: 1000 }}
+		in:fly={{ y: 100, duration: 800 }}
 		class="grid grid-cols-3 md:grid-cols-6 gap-[20px] px-[20px] mb-[40px]"
 	>
 		{#each trendings as trend}
