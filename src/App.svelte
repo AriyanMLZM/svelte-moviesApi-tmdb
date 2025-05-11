@@ -24,6 +24,4 @@
 </script>
 
 <Navbar />
-<main>
-	<Router {routes} />
-</main>
+<Router {routes} />

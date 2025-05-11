@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onDestroy, onMount } from 'svelte'
+	import { onDestroy, onMount, tick } from 'svelte'
 	import movies from '../constants/tmdb-ids.movies.json'
 	import { List, Trending, PageSelector } from '../lib/index.svelte'
 
@@ -9,20 +9,17 @@
 	const storedPage = Number(localStorage.getItem('pageMovies'))
 	let index: number = storedPage < 1 || storedPage > pages ? 1 : storedPage
 
-	let scrollY: number
+	const handleScroll = () => {
+		localStorage.setItem('scrollPos_movies', window.scrollY.toString())
+	}
 
 	onMount(() => {
 		const storedPos = localStorage.getItem('scrollPos_movies')
 		if (storedPos) {
 			setTimeout(() => {
-				window.scrollTo(0, Number(storedPos))
+				window.scrollTo({ top: Number(storedPos), behavior: 'smooth' })
 			}, 50)
 		}
-	})
-
-	onDestroy(() => {
-		localStorage.setItem('pageMovies', index.toString())
-		localStorage.setItem('scrollPos_movies', scrollY.toString())
 	})
 
 	const changeIndex = (action: string) => {
@@ -34,6 +31,7 @@
 				index = index === 1 ? pages : index - 1
 				break
 		}
+		localStorage.setItem('pageMovies', index.toString())
 	}
 
 	$: paginatedItems = movies.slice((index - 1) * packSize, index * packSize)
@@ -43,7 +41,7 @@
 	<title>Movotopia | Movie</title>
 </svelte:head>
 
-<svelte:window bind:scrollY />
+<svelte:window on:scroll={handleScroll} />
 
 <Trending type="movie" />
 <PageSelector {pages} {changeIndex} {index} {length} />

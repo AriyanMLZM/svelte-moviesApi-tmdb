@@ -15,7 +15,7 @@
 	}
 </script>
 
-<h2 class="mt-[50px] py-[20px] text-[1.2rem] text-center font-bold text-white">
+<h2 class="py-[20px] pt-[40px] text-[1.2rem] text-center font-bold text-white">
 	Trending
 </h2>
 {#await getData()}

@@ -9,20 +9,17 @@
 	const storedPage = Number(localStorage.getItem('pageTvs'))
 	let index: number = storedPage < 1 || storedPage > pages ? 1 : storedPage
 
-	let scrollY: number
+	const handleScroll = () => {
+		localStorage.setItem('scrollPos_tvs', window.scrollY.toString())
+	}
 
 	onMount(() => {
 		const storedPos = localStorage.getItem('scrollPos_tvs')
 		if (storedPos) {
 			setTimeout(() => {
-				window.scrollTo(0, Number(storedPos))
+				window.scrollTo({ top: Number(storedPos), behavior: 'smooth' })
 			}, 50)
 		}
-	})
-
-	onDestroy(() => {
-		localStorage.setItem('pageTvs', index.toString())
-		localStorage.setItem('scrollPos_tvs', scrollY.toString())
 	})
 
 	const changeIndex = (action: string) => {
@@ -34,6 +31,7 @@
 				index = index === 1 ? pages : index - 1
 				break
 		}
+		localStorage.setItem('pageTvs', index.toString())
 	}
 
 	$: paginatedItems = tvs.slice((index - 1) * packSize, index * packSize)
@@ -43,7 +41,7 @@
 	<title>Movotopia | Tv</title>
 </svelte:head>
 
-<svelte:window bind:scrollY />
+<svelte:window on:scroll={handleScroll} />
 
 <Trending type="tv" />
 <PageSelector {pages} {changeIndex} {index} {length} />
