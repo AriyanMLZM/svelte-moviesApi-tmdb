@@ -7,7 +7,7 @@
 </script>
 
 <section
-	in:fly={{ y: 200, duration: 1000 }}
+	in:fly={{ y: 100, duration: 800 }}
 	class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[20px]"
 >
 	{#each episodes as episode}

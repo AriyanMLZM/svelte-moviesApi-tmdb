@@ -7,7 +7,7 @@
 </script>
 
 <div
-	in:fly={{ y: 100, duration: 1000 }}
+	in:fly={{ y: 100, duration: 800 }}
 	class="w-full flex justify-center items-center flex-col md:justify-normal md:items-start md:flex-row gap-[40px]"
 >
 	<div class="w-[300px] h-[300px] rounded-[20px] overflow-hidden">
@@ -53,9 +53,11 @@
 			{tv.vote.toFixed(1)}
 		</h2>
 	</div>
-	<div class="p-[10px] md:p-[50px]">
-		<h2 class="text-white text-[1.1rem]">" {tv.tagline} "</h2>
-	</div>
+	{#if tv.tagline !== ''}
+		<div class="p-[10px] md:p-[30px] max-w-[500px]">
+			<h2 class="text-white text-[1.1rem]">" {tv.tagline} "</h2>
+		</div>
+	{/if}
 </div>
 <div class="p-[20px] mt-[20px]">
 	<p class="text-white text-[0.9rem] text-justify">

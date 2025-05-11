@@ -30,6 +30,6 @@ export const restoreScroll = (route: string) => {
 
 export const scrollTop = () => {
 	requestAnimationFrame(() => {
-		window.scrollTo(0, 0)
+		window.scrollTo({ top: 0, behavior: 'instant' })
 	})
 }

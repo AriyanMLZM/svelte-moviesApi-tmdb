@@ -1,8 +1,12 @@
 <script lang="ts">
+	import { onMount } from 'svelte'
 	import { Error, Loader, EpisodesList, BackButton } from '../lib/index.svelte'
 	import type { IApiEpisodes } from '../types/index.svelte'
+	import { scrollTop } from '../utils/scrollManager'
 
 	export let params
+
+	onMount(() => scrollTop())
 
 	const getData = async () => {
 		const resTmdb = await fetch(
@@ -23,7 +27,9 @@
 </script>
 
 {#await getData()}
-	<Loader />
+	<div class="w-full h-screen bg-black/80">
+		<Loader />
+	</div>
 {:then season}
 	<section
 		class="w-full h-full bg-center bg-cover"
