@@ -4,8 +4,6 @@
 	import { Image } from './index.svelte'
 	export let seasons: ISeason[]
 	export let id: string
-
-	console.log(seasons)
 </script>
 
 <section

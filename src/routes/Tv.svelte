@@ -81,36 +81,39 @@
 		<Loader />
 	</div>
 {:then tv}
-	<section
-		class="w-full min-h-screen"
+	<div
+		class="w-full h-screen"
 		style="
 			background-image: url('{import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 			tv.backgroundImage}');
-			background-attachment: fixed;
 			background-position: center;
-			background-repeat: no-repeat;
 			background-size: cover;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
 		"
+	></div>
+	<div
+		class="w-full h-full bg-black/80 backdrop-blur-[3px] px-[20px] pb-[60px]"
 	>
-		<div
-			class="w-full h-full bg-black/80 backdrop-blur-[3px] px-[20px] pb-[60px]"
-		>
-			<BackButton />
-			<TvInfo {tv} />
-			<Seasons seasons={tv.seasons} id={params.id} />
-			<Networks networks={tv.networks} />
-			<Creators creators={tv.creators} role="Creator" />
-			{#await getCast()}
-				<div class="h-[200px] w-full">
-					<Loader />
-				</div>
-			{:then cast}
-				<CastList {cast} />
-			{:catch error}
-				<Error msg={error.message} />
-			{/await}
-		</div>
-	</section>
+		<BackButton />
+		<TvInfo {tv} />
+		<Seasons seasons={tv.seasons} id={params.id} />
+		<Networks networks={tv.networks} />
+		<Creators creators={tv.creators} role="Creator" />
+		{#await getCast()}
+			<div class="h-[200px] w-full">
+				<Loader />
+			</div>
+		{:then cast}
+			<CastList {cast} />
+		{:catch error}
+			<Error msg={error.message} />
+		{/await}
+	</div>
 {:catch error}
 	<Error msg={error.message} />
 {/await}

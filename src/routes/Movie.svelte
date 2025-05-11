@@ -70,7 +70,7 @@
 	</div>
 {:then movie}
 	<div
-		class="w-full min-h-screen"
+		class="w-full h-screen"
 		style="
 			background-image: url('{import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 			movie.backgroundImage}');
