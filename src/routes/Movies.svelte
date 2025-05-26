@@ -37,6 +37,7 @@
 <svelte:window on:scroll={() => saveScroll('movies')} />
 
 <Trending type="movie" />
+<h2 class="text-[1.2rem] text-center font-bold text-white">Watched</h2>
 <PageSelector {pages} {changeIndex} {index} {length} />
 <List data={paginatedItems} type={'movie'} />
 <PageSelector {pages} {changeIndex} {index} {length} />

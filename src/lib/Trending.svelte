@@ -10,7 +10,7 @@
 			`https://api.themoviedb.org/3/trending/${type}/week?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
 		)
 		const { results } = await resTmdb.json()
-		results.length = 6
+		results.length = 12
 		return results
 	}
 </script>
@@ -39,7 +39,9 @@
 						alt={trend.name || trend.title}
 					/>
 				</div>
-				<h2 class="text-[0.9rem] font-bold text-white text-center">
+				<h2
+					class="text-[0.8rem] font-bold text-white text-center overflow-hidden overflow-ellipsis h-[30px] text-nowrap"
+				>
 					{trend.name || trend.title}
 				</h2>
 			</a>

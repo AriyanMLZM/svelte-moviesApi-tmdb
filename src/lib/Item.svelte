@@ -56,7 +56,7 @@
 				class="w-full flex items-center justify-between mt-[10px] text-[0.8rem]"
 			>
 				<h2>tmdb - {itemData.rate}</h2>
-				<h2>{itemData.date}</h2>
+				<h2>{itemData.date.split('-')[0]}</h2>
 			</div>
 		</div>
 	</a>
