@@ -8,7 +8,7 @@
 	const packSize = 20
 	const length = movies.length
 	const pages = Math.ceil(length / packSize)
-	const storedPage = Number(localStorage.getItem('pageMovies'))
+	const storedPage = Number(sessionStorage.getItem('pageMovies'))
 	let index: number = storedPage < 1 || storedPage > pages ? 1 : storedPage
 
 	onMount(() => {
@@ -24,7 +24,7 @@
 				index = index === 1 ? pages : index - 1
 				break
 		}
-		localStorage.setItem('pageMovies', index.toString())
+		sessionStorage.setItem('pageMovies', index.toString())
 	}
 
 	$: paginatedItems = movies.slice((index - 1) * packSize, index * packSize)

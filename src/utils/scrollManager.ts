@@ -1,12 +1,12 @@
 // save pos of specific route on scroll
 export const saveScroll = (route: string) => {
-	localStorage.setItem(`scroll-${route}`, window.scrollY.toString())
+	sessionStorage.setItem(`scroll-${route}`, window.scrollY.toString())
 }
 
 // restore the scroll pos safely after all dom and async contents were rendered.
 let observer: MutationObserver
 export const restoreScroll = (route: string) => {
-	const restoreY = Number(localStorage.getItem(`scroll-${route}`)) || 0
+	const restoreY = Number(sessionStorage.getItem(`scroll-${route}`)) || 0
 
 	return new Promise<void>((resolve) => {
 		if (observer) observer.disconnect()
@@ -37,7 +37,7 @@ export const scrollTop = () => {
 export const clearScrolls = (routes: string[]) => {
 	if (routes) {
 		routes.forEach((route) => {
-			localStorage.removeItem(`scroll-${route}`)
+			sessionStorage.removeItem(`scroll-${route}`)
 		})
 	}
 }

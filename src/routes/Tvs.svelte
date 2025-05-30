@@ -7,7 +7,7 @@
 	const packSize = 20
 	const length = tvs.length
 	const pages = Math.ceil(length / packSize)
-	const storedPage = Number(localStorage.getItem('pageTvs'))
+	const storedPage = Number(sessionStorage.getItem('pageTvs'))
 	let index: number = storedPage < 1 || storedPage > pages ? 1 : storedPage
 
 	onMount(() => {
@@ -23,7 +23,7 @@
 				index = index === 1 ? pages : index - 1
 				break
 		}
-		localStorage.setItem('pageTvs', index.toString())
+		sessionStorage.setItem('pageTvs', index.toString())
 	}
 
 	$: paginatedItems = tvs.slice((index - 1) * packSize, index * packSize)
