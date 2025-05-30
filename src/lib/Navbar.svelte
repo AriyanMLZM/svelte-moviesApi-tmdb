@@ -10,13 +10,13 @@
 		class="font-bold hover:text-primary active:text-primary {$location ===
 			'/' && 'text-primary'}"
 		href="/"
-		use:link>MOVIE</a
+		use:link>Movies</a
 	>
 	<a
 		class="font-bold hover:text-primary active:text-primary {$location ===
-			'/tvs' && 'text-primary'}"
-		href="/tvs"
-		use:link>TV</a
+			'/shows' && 'text-primary'}"
+		href="/shows"
+		use:link>Shows</a
 	>
 	<a
 		class="font-bold hover:text-primary active:text-primary {$location ===

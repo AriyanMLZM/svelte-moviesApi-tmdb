@@ -31,13 +31,15 @@
 </script>
 
 <svelte:head>
-	<title>Movotopia | Movie</title>
+	<title>Movotopia | Movies</title>
 </svelte:head>
 
 <svelte:window on:scroll={() => saveScroll('movies')} />
 
 <Trending type="movie" />
-<h2 class="text-[1.2rem] text-center font-bold text-white">Watched</h2>
+<h2 class="text-[1.2rem] text-center font-bold text-white mt-[10px]">
+	Watched
+</h2>
 <PageSelector {pages} {changeIndex} {index} {length} />
 <List data={paginatedItems} type={'movie'} />
 <PageSelector {pages} {changeIndex} {index} {length} />

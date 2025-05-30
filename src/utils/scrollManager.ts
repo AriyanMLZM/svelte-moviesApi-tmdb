@@ -33,3 +33,11 @@ export const scrollTop = () => {
 		window.scrollTo({ top: 0, behavior: 'instant' })
 	})
 }
+
+export const clearScrolls = (routes: string[]) => {
+	if (routes) {
+		routes.forEach((route) => {
+			localStorage.removeItem(`scroll-${route}`)
+		})
+	}
+}

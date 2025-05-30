@@ -11,16 +11,28 @@
 		Search,
 	} from './routes/index.svelte'
 	import { Navbar } from './lib/index.svelte'
+	import { onMount } from 'svelte'
 
 	const routes = {
 		'/': Movies,
-		'/tvs': Tvs,
+		'/shows': Tvs,
 		'/movie/:id': Movie,
 		'/tv/:id': Tv,
 		'/season/:id/:seasonNum': Season,
 		'/search': Search,
 		'*': NotFound,
 	}
+
+	onMount(() => {
+		const clearStorage = () => {
+			localStorage.clear()
+		}
+		window.addEventListener('beforeunload', clearStorage)
+
+		return () => {
+			window.removeEventListener('beforeunload', clearStorage)
+		}
+	})
 </script>
 
 <div></div>
