@@ -31,7 +31,7 @@
 						? item.first_air_date.split('-')[0]
 						: '',
 				poster: item.poster_path,
-				rate: item.vote_average.toFixed(1),
+				rate: item.vote_average ? item.vote_average.toFixed(1) : 0,
 			}
 		})
 		return { modifiedResults, type }
