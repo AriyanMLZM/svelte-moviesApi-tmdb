@@ -7,15 +7,15 @@
 </script>
 
 <section
-	class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[20px] mt-[60px]"
+	class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-[1.2rem] mt-[60px]"
 >
 	{#each seasons as season}
 		<a
 			href="/season/{id}/{season.season_number}"
 			use:link
-			class="flex-center flex-col hover:bg-white/30 active:bg-white/30 rounded-[20px] p-[20px]"
+			class="flex-center flex-col hover:bg-white/30 active:bg-white/30 rounded-[20px]"
 		>
-			<div class="w-[300px] min-h-[120px] rounded-[20px] overflow-hidden">
+			<div class="w-full min-h-[120px] rounded-[20px] overflow-hidden">
 				<Image
 					src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + season.poster_path}
 					alt={season.name}
