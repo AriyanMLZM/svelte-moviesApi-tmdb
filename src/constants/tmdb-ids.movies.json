@@ -89,6 +89,12 @@
   "id": "7445"
 },
 {
+  "title": "Cargo",
+  "input_title": "Cargo",
+  "year": "2017-10-06",
+  "id": "425972"
+},
+{
   "title": "Chicken Run: Dawn of the Nugget",
   "input_title": "Chicken Run Dawn of the Nugget",
   "year": "2023-12-08",
@@ -135,12 +141,6 @@
   "input_title": "Dune 1",
   "year": "2021-09-15",
   "id": "438631"
-},
-{
-  "title": "Dune: Part Two",
-  "input_title": "Dune 2",
-  "year": "2024-02-27",
-  "id": "693134"
 },
 {
   "title": "Elemental",
@@ -245,6 +245,12 @@
   "id": "51876"
 },
 {
+  "title": "Législatives 2024 : chronique d'une folle campagne",
+  "input_title": "Dune 2",
+  "year": "2024-07-27",
+  "id": "1371461"
+},
+{
   "title": "Léon: The Professional",
   "input_title": "Leon The Professional",
   "year": "1994-09-14",
@@ -273,6 +279,12 @@
   "input_title": "Mass",
   "year": "2021-10-08",
   "id": "423333"
+},
+{
+  "title": "Melancholia",
+  "input_title": "Melancholia",
+  "year": "2011-05-26",
+  "id": "62215"
 },
 {
   "title": "Memento",
