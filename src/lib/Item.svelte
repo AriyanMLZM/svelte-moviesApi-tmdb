@@ -32,13 +32,13 @@
 
 {#await gettingData}
 	<div
-		class="w-full min-h-[150px] animate-pulse bg-black/50 rounded-[20px]"
+		class="w-full min-h-[150px] animate-pulse bg-black/30 rounded-[20px]"
 	></div>
 {:then itemData}
 	<a
 		href="/{type}/{itemData.id}"
 		use:link
-		class="bg-black/50 hover:bg-white/30 active:bg-white/30 rounded-[20px] w-full flex justify-between flex-col hover:text-black active:text-black text-white"
+		class="bg-black/30 hover:bg-white/30 active:bg-white/30 rounded-[20px] w-full flex justify-between flex-col hover:text-black active:text-black text-white"
 	>
 		<div class="w-full h-full min-h-[200px] rounded-t-[20px] overflow-hidden">
 			<Image
@@ -61,7 +61,7 @@
 		</div>
 	</a>
 {:catch}
-	<div class="w-full bg-black/50 min-h-[150px] rounded-[20px] flex-center">
+	<div class="w-full bg-black/30 min-h-[150px] rounded-[20px] flex-center">
 		<Icon
 			icon="material-symbols:error-rounded"
 			class="text-white text-[1.8rem]"

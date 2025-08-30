@@ -7,8 +7,8 @@
 	<img draggable="false" src={errorImage} alt="not-found" width="200px" />
 	<p class="text-white font-bold text-[1.2rem]">{msg}!</p>
 	<button
-		class="bg-primary text-[1rem] rounded-[20px] py-[10px] px-[20px] font-bold hover:bg-white hover:text-primary active:bg-white active:text-primary text-white mt-[40px]"
+		class="bg-primary text-[1rem] rounded-[20px] py-[10px] px-[20px] font-bold hover:bg-white hover:text-primary active:bg-white active:text-primary mt-[40px]"
 		on:click={() => location.reload()}
-		type="button">refresh</button
+		type="button">Refresh</button
 	>
 </section>
