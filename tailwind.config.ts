@@ -4,7 +4,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#FE5702',
+				primary: 'var(--accentColor)',
 			},
 		},
 	},

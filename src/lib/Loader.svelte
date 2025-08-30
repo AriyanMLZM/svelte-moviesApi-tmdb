@@ -25,7 +25,7 @@
 		bottom: 0;
 		margin: auto;
 		border: 3px solid;
-		border-color: transparent transparent #ff3d00 #ff3d00;
+		border-color: transparent transparent var(--accentColor) var(--accentColor);
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;

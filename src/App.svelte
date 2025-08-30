@@ -14,7 +14,7 @@
 	import { Navbar } from './lib/index.svelte'
 
 	const randomColor = randomColors[randomNumber(randomColors.length)]
-	document.body.style.setProperty('--accentColor', randomColor)
+	document.documentElement.style.setProperty('--accentColor', randomColor)
 
 	const routes = {
 		'/': Movies,
@@ -42,8 +42,8 @@
 	div {
 		background: linear-gradient(
 			45deg,
-			rgb(19, 19, 19) 38%,
-			rgba(254, 87, 2, 1) 100%
+			rgb(19, 19, 19) 40%,
+			var(--accentColor) 150%
 		);
 		background-size: cover;
 		background-position: center;
