@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Router from 'svelte-spa-router'
-
+	import randomColors from './constants/randomColors'
+	import randomNumber from './utils/randomNumber'
 	import {
 		Movies,
 		Tvs,
@@ -11,6 +12,9 @@
 		Search,
 	} from './routes/index.svelte'
 	import { Navbar } from './lib/index.svelte'
+
+	const randomColor = randomColors[randomNumber(randomColors.length)]
+	document.body.style.setProperty('--accentColor', randomColor)
 
 	const routes = {
 		'/': Movies,
