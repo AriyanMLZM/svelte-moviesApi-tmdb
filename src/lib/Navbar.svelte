@@ -26,4 +26,11 @@
 	>
 		<Icon icon="lucide:search" class="text-[1rem]" />
 	</a>
+	<button
+		on:click={() => window.location.reload()}
+		class="bg-primary w-[20px] h-[20px] rounded-full"
+		type="button"
+		aria-label="accentColor"
+		title="change color"
+	></button>
 </nav>

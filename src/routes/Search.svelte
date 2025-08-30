@@ -72,7 +72,5 @@
 			<h2 class="text-[1.2rem] text-white text-center">Shows</h2>
 		{/if}
 		<List data={result.modifiedResults} type={result.type} />
-	{:catch error}
-		<Error msg={error.message} />
 	{/await}
 </div>
