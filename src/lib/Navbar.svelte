@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { link, location } from 'svelte-spa-router'
 	import Icon from '@iconify/svelte'
+	import randomNumber from '../utils/randomNumber'
+	import randomColors from '../constants/randomColors'
 </script>
 
 <nav
@@ -27,7 +29,10 @@
 		<Icon icon="lucide:search" class="text-[1rem]" />
 	</a>
 	<button
-		on:click={() => window.location.reload()}
+		on:click={() => {
+			const randomColor = randomColors[randomNumber(randomColors.length)]
+			document.documentElement.style.setProperty('--accentColor', randomColor)
+		}}
 		class="bg-primary w-[20px] h-[20px] rounded-full"
 		type="button"
 		aria-label="accentColor"
