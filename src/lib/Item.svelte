@@ -9,7 +9,7 @@
 
 	const getData = async () => {
 		const resTmdb = await fetch(
-			`https://api.themoviedb.org/3/${type}/${item.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/${type}/${item.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
 		)
 		const {
 			title: title,
