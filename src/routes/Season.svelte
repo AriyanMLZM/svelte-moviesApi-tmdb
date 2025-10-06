@@ -10,7 +10,7 @@
 
 	const getData = async () => {
 		const resTmdb = await fetch(
-			`https://api.themoviedb.org/3/tv/${params.id}/season/${params.seasonNum}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}/season/${params.seasonNum}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
 		)
 		const {
 			episodes,

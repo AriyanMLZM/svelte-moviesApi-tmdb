@@ -16,7 +16,7 @@
 			return []
 		}
 		const resTmdb = await fetch(
-			`https://api.themoviedb.org/3/search/${type}?api_key=${import.meta.env.VITE_TMDB_API_KEY}&query=${phrase}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/search/${type}?api_key=${import.meta.env.VITE_TMDB_API_KEY}&query=${phrase}`
 		)
 		const { results } = await resTmdb.json()
 		if (results.length === 0) return []

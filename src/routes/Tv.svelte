@@ -21,7 +21,7 @@
 
 	const getData = async () => {
 		const resTmdb = await fetch(
-			`https://api.themoviedb.org/3/tv/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
 		)
 		const {
 			name: title,
@@ -65,7 +65,7 @@
 
 	const getCast = async () => {
 		const resTmdb = await fetch(
-			`https://api.themoviedb.org/3/tv/${params.id}/credits?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}/credits?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
 		)
 		const { cast } = await resTmdb.json()
 		return cast
