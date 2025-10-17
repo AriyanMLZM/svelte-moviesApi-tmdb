@@ -39,7 +39,7 @@
 		</h2>
 		<h2 class="text-[0.85rem] mt-[20px] w-[250px] flex justify-between">
 			<span class="text-primary">Tmdb</span>
-			{movie.vote}
+			{movie.vote.toFixed(1)}
 		</h2>
 	</div>
 	{#if movie.tagline !== ""}
