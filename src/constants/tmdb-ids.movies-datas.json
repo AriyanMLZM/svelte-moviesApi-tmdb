@@ -1,0 +1,1692 @@
+[{
+  "_id": {
+    "$oid": "68f20286556ae87ec7010c42"
+  },
+  "title": "(500) Days of Summer",
+  "input_title": "500 Days of Summer",
+  "date": "2009",
+  "poster": "/qXAuQ9hF30sQRsXf40OfRVl0MJZ.jpg",
+  "id": "19913",
+  "rate": 7.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20286556ae87ec7010c40"
+  },
+  "title": "300",
+  "input_title": "300",
+  "date": "2007",
+  "poster": "/h7Lcio0c9ohxPhSZg42eTlKIVVY.jpg",
+  "id": "1271",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20286556ae87ec7010c3e"
+  },
+  "title": "9",
+  "input_title": "9",
+  "date": "2009",
+  "poster": "/3uqXGOH4BQ2CLJWkDJZ0PzbUzOn.jpg",
+  "id": "12244",
+  "rate": 6.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20287556ae87ec7010c46"
+  },
+  "title": "A Dangerous Method",
+  "input_title": "A Dangerous Method",
+  "date": "2011",
+  "poster": "/7TPYtzq9ABkfED1JB0tRASamL4z.jpg",
+  "id": "48231",
+  "rate": 6.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20297556ae87ec7010d1c"
+  },
+  "title": "A Haunting in Venice",
+  "input_title": "A Haunting in Venice",
+  "date": "2023",
+  "poster": "/l6iwxT0NbVw6QiF08YTIuTnXS82.jpg",
+  "id": "945729",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20287556ae87ec7010c44"
+  },
+  "title": "A Man Called Otto",
+  "input_title": "A Man Called Otto",
+  "date": "2022",
+  "poster": "/130H1gap9lFfiTF9iDrqNIkFvC9.jpg",
+  "id": "937278",
+  "rate": 7.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20299556ae87ec7010d38"
+  },
+  "title": "A Minecraft Movie",
+  "input_title": "A Minecraft Movie",
+  "date": "2025",
+  "poster": "/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+  "id": "950387",
+  "rate": 6.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20295556ae87ec7010cfc"
+  },
+  "title": "Alien: Romulus",
+  "input_title": "Alien Romulus",
+  "date": "2024",
+  "poster": "/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+  "id": "945961",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20287556ae87ec7010c48"
+  },
+  "title": "All Quiet on the Western Front",
+  "input_title": "All Quiet On The Western Front",
+  "date": "2022",
+  "poster": "/2IRjbi9cADuDMKmHdLK7LaqQDKA.jpg",
+  "id": "49046",
+  "rate": 7.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20299556ae87ec7010d3c"
+  },
+  "title": "Alpha Dog",
+  "input_title": "Alpha Dog",
+  "date": "2006",
+  "poster": "/t9pirEsDxe102mSQGoDZWBbdcCD.jpg",
+  "id": "7457",
+  "rate": 6.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20287556ae87ec7010c50"
+  },
+  "title": "American Pie",
+  "input_title": "American Pie",
+  "date": "1999",
+  "poster": "/5P68by2Thn8wHAziyWGEw2O7hco.jpg",
+  "id": "2105",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20288556ae87ec7010c52"
+  },
+  "title": "American Pie 2",
+  "input_title": "American Pie 2",
+  "date": "2001",
+  "poster": "/854ZZxXdeabAs90mrV72NqShJqR.jpg",
+  "id": "2770",
+  "rate": 6.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20288556ae87ec7010c56"
+  },
+  "title": "American Reunion",
+  "input_title": "American Reunion",
+  "date": "2012",
+  "poster": "/de5QBIdVR4dnkBZ4a0zjkS4lTg.jpg",
+  "id": "71552",
+  "rate": 6.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20288556ae87ec7010c54"
+  },
+  "title": "American Wedding",
+  "input_title": "American Wedding",
+  "date": "2003",
+  "poster": "/pCO3lJv2PzPkJty29APxCVSjyoE.jpg",
+  "id": "8273",
+  "rate": 6.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029a556ae87ec7010d44"
+  },
+  "title": "Aniara",
+  "input_title": "Aniara",
+  "date": "2019",
+  "poster": "/pEpEJe8NTmwWL0hwYkZguTzEqzt.jpg",
+  "id": "496743",
+  "rate": 6.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20288556ae87ec7010c58"
+  },
+  "title": "Asteroid City",
+  "input_title": "Asteroid City",
+  "date": "2023",
+  "poster": "/rAkz95CREc3A1qTnwlSQ0jh8Zw8.jpg",
+  "id": "747188",
+  "rate": 6.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20288556ae87ec7010c5c"
+  },
+  "title": "Black Swan",
+  "input_title": "Black Swan",
+  "date": "2010",
+  "poster": "/viWheBd44bouiLCHgNMvahLThqx.jpg",
+  "id": "44214",
+  "rate": 7.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20289556ae87ec7010c5e"
+  },
+  "title": "Blade Runner 2049",
+  "input_title": "Blade Runner 2049",
+  "date": "2017",
+  "poster": "/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+  "id": "335984",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20294556ae87ec7010cf0"
+  },
+  "title": "Brothers",
+  "input_title": "Brothers",
+  "date": "2009",
+  "poster": "/skHqceAFYee0JZuYd9MVk2IQggi.jpg",
+  "id": "7445",
+  "rate": 7.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20297556ae87ec7010d1a"
+  },
+  "title": "Cargo",
+  "input_title": "Cargo",
+  "date": "2017",
+  "poster": "/cdPSUck4tBRvRu6DFk6XciDrssn.jpg",
+  "id": "425972",
+  "rate": 6.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20289556ae87ec7010c60"
+  },
+  "title": "Chicken Run: Dawn of the Nugget",
+  "input_title": "Chicken Run Dawn of the Nugget",
+  "date": "2023",
+  "poster": "/exNtEY8QUuQh9e23wSQjkPxKIU3.jpg",
+  "id": "520758",
+  "rate": 6.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20296556ae87ec7010d12"
+  },
+  "title": "Christiane F.",
+  "input_title": "Christiane F.",
+  "date": "1981",
+  "poster": "/gDnWMZ8d39KwmweE4OK5P7ph4OL.jpg",
+  "id": "9589",
+  "rate": 7.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20295556ae87ec7010d00"
+  },
+  "title": "Chronicle",
+  "input_title": "Chronicle",
+  "date": "2012",
+  "poster": "/kdyrdFIt29FUmLIKvedAc2j4rpo.jpg",
+  "id": "76726",
+  "rate": 6.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20289556ae87ec7010c62"
+  },
+  "title": "Cocaine Bear",
+  "input_title": "Cocaine Bear",
+  "date": "2023",
+  "poster": "/gOnmaxHo0412UVr1QM5Nekv1xPi.jpg",
+  "id": "804150",
+  "rate": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20299556ae87ec7010d36"
+  },
+  "title": "Come and See",
+  "input_title": "Come and See",
+  "date": "1985",
+  "poster": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
+  "id": "25237",
+  "rate": 8.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029a556ae87ec7010d48"
+  },
+  "title": "Compliance",
+  "input_title": "Compliance",
+  "date": "2012",
+  "poster": "/bLdu28fr9txYlHLmEOyGplDT3nH.jpg",
+  "id": "84188",
+  "rate": 6.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20297556ae87ec7010d22"
+  },
+  "title": "Deadpool & Wolverine",
+  "input_title": "Deadpool and Wolverine",
+  "date": "2024",
+  "poster": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+  "id": "533535",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20289556ae87ec7010c64"
+  },
+  "title": "Detachment",
+  "input_title": "Detachment",
+  "date": "2011",
+  "poster": "/bC5H2dabnHrQJD1KmQUSUUeuCXU.jpg",
+  "id": "74308",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20289556ae87ec7010c66"
+  },
+  "title": "Django Unchained",
+  "input_title": "Django Unchained",
+  "date": "2012",
+  "poster": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+  "id": "68718",
+  "rate": 8.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20297556ae87ec7010d1e"
+  },
+  "title": "Dolittle",
+  "input_title": "Dolittle",
+  "date": "2020",
+  "poster": "/uoplwswBDy7gsOyrbGuKyPFoPCs.jpg",
+  "id": "448119",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20289556ae87ec7010c68"
+  },
+  "title": "Donnie Darko",
+  "input_title": "Donnie Darko",
+  "date": "2001",
+  "poster": "/fhQoQfejY1hUcwyuLgpBrYs6uFt.jpg",
+  "id": "141",
+  "rate": 7.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028a556ae87ec7010c6a"
+  },
+  "title": "Dune",
+  "input_title": "Dune 1",
+  "date": "2021",
+  "poster": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+  "id": "438631",
+  "rate": 7.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028a556ae87ec7010c6c"
+  },
+  "title": "Dune: Part Two",
+  "input_title": "Dune: Part Two",
+  "date": "2024",
+  "poster": "/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+  "id": "693134",
+  "rate": 8.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028a556ae87ec7010c6e"
+  },
+  "title": "Elemental",
+  "input_title": "Elemental",
+  "date": "2023",
+  "poster": "/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg",
+  "id": "976573",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028a556ae87ec7010c72"
+  },
+  "title": "Eternal Sunshine of the Spotless Mind",
+  "input_title": "Eternal Sunshine of the Spotless Mind",
+  "date": "2004",
+  "poster": "/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+  "id": "38",
+  "rate": 8.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028a556ae87ec7010c70"
+  },
+  "title": "Evil Dead",
+  "input_title": "Evil Dead",
+  "date": "2013",
+  "poster": "/1gDV0Lm9y8ufIKzyf0h0GBgb9Zj.jpg",
+  "id": "109428",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20298556ae87ec7010d2e"
+  },
+  "title": "Fight Club",
+  "input_title": "Fight Club",
+  "date": "1999",
+  "poster": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+  "id": "550",
+  "rate": 8.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028a556ae87ec7010c76"
+  },
+  "title": "Follow Me",
+  "input_title": "Follow Me",
+  "date": "2020",
+  "poster": "/glwOyoD0Pzxzyb3l7nELEgjSjQ8.jpg",
+  "id": "606625",
+  "rate": 6.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20299556ae87ec7010d30"
+  },
+  "title": "Forrest Gump",
+  "input_title": "Forrest Gump",
+  "date": "1994",
+  "poster": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+  "id": "13",
+  "rate": 8.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20295556ae87ec7010cfe"
+  },
+  "title": "Friends: The Reunion",
+  "input_title": "Friends The Reunion",
+  "date": "2021",
+  "poster": "/bT3c4TSOP8vBmMoXZRDPTII6eDa.jpg",
+  "id": "691179",
+  "rate": 7.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028b556ae87ec7010c78"
+  },
+  "title": "Girl, Interrupted",
+  "input_title": "Girl Interrupted",
+  "date": "1999",
+  "poster": "/dOBdatHIVppvmRFw2z7bf9VKJr9.jpg",
+  "id": "3558",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028b556ae87ec7010c7c"
+  },
+  "title": "Godzilla Minus One",
+  "input_title": "Godzilla Minus One",
+  "date": "2023",
+  "poster": "/2E2WTX0TJEflAged6kzErwqX1kt.jpg",
+  "id": "940721",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028b556ae87ec7010c7a"
+  },
+  "title": "Guardians of the Galaxy Vol. 3",
+  "input_title": "Guardians of the Galaxy Vol 3",
+  "date": "2023",
+  "poster": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+  "id": "447365",
+  "rate": 7.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028b556ae87ec7010c82"
+  },
+  "title": "I Am Sam",
+  "input_title": "I Am Sam",
+  "date": "2001",
+  "poster": "/3MUXRSyx9gnA2lLSSTGLN8cQQ42.jpg",
+  "id": "10950",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028b556ae87ec7010c80"
+  },
+  "title": "I.S.S.",
+  "input_title": "I.S.S.",
+  "date": "2024",
+  "poster": "/blPAS2HZcOGLTREbUeNIWmz0B6f.jpg",
+  "id": "790462",
+  "rate": 5.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20295556ae87ec7010d06"
+  },
+  "title": "In the Name of the King: A Dungeon Siege Tale",
+  "input_title": "In The Name of The King: A Dungeon Siege Tale",
+  "date": "2007",
+  "poster": "/bbN1lmDk1PT0GsTFCy179sk5nIF.jpg",
+  "id": "2312",
+  "rate": 4.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028c556ae87ec7010c84"
+  },
+  "title": "Insidious: The Red Door",
+  "input_title": "Insidious The Red Door",
+  "date": "2023",
+  "poster": "/d07phJqCx6z5wILDYqkyraorDPi.jpg",
+  "id": "614479",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20296556ae87ec7010d10"
+  },
+  "title": "Insomnia",
+  "input_title": "Insomnia",
+  "date": "2002",
+  "poster": "/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg",
+  "id": "320",
+  "rate": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20297556ae87ec7010d20"
+  },
+  "title": "John and the Hole",
+  "input_title": "John and the Hole",
+  "date": "2021",
+  "poster": "/rLYJ7YaVqEkF7jYbQDprmSSkWWW.jpg",
+  "id": "682532",
+  "rate": 5.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028c556ae87ec7010c86"
+  },
+  "title": "Joker",
+  "input_title": "Joker",
+  "date": "2019",
+  "poster": "/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+  "id": "475557",
+  "rate": 8.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20294556ae87ec7010cf8"
+  },
+  "title": "Joker: Folie à Deux",
+  "input_title": "Joker Folie a Deux",
+  "date": "2024",
+  "poster": "/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg",
+  "id": "889737",
+  "rate": 5.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028c556ae87ec7010c88"
+  },
+  "title": "Kingdom of Heaven",
+  "input_title": "Kingdom of Heaven",
+  "date": "2005",
+  "poster": "/rNaBe4TwbMef71sgscqabpGKsxh.jpg",
+  "id": "1495",
+  "rate": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20298556ae87ec7010d28"
+  },
+  "title": "Last Breath",
+  "input_title": "Last Breath",
+  "date": "2025",
+  "poster": "/jc0ZvOgmYZWqTTwx2G5mkoERQM6.jpg",
+  "id": "972533",
+  "rate": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20299556ae87ec7010d3a"
+  },
+  "title": "Lilya 4-ever",
+  "input_title": "Lilya 4-ever",
+  "date": "2002",
+  "poster": "/5i1uhvcdv2Iogx0Bb1znvUmkCvN.jpg",
+  "id": "12093",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028c556ae87ec7010c8a"
+  },
+  "title": "Limitless",
+  "input_title": "Limitless",
+  "date": "2011",
+  "poster": "/un0a2U7KLjMH77N6EhqYh7ZOlVx.jpg",
+  "id": "51876",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028c556ae87ec7010c8c"
+  },
+  "title": "Léon: The Professional",
+  "input_title": "Leon The Professional",
+  "date": "1994",
+  "poster": "/bxB2q91nKYp8JNzqE7t7TWBVupB.jpg",
+  "id": "101",
+  "rate": 8.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028d556ae87ec7010c96"
+  },
+  "title": "M3GAN",
+  "input_title": "M3GAN",
+  "date": "2022",
+  "poster": "/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
+  "id": "536554",
+  "rate": 7.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028c556ae87ec7010c90"
+  },
+  "title": "Manchester by the Sea",
+  "input_title": "Manchester By The Sea",
+  "date": "2016",
+  "poster": "/o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+  "id": "334541",
+  "rate": 7.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20293556ae87ec7010cec"
+  },
+  "title": "Mary and Max",
+  "input_title": "Mary and Max",
+  "date": "2009",
+  "poster": "/ebmsM382m9IClLUzKYY2U5biFwM.jpg",
+  "id": "24238",
+  "rate": 7.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20298556ae87ec7010d2a"
+  },
+  "title": "Masculin Féminin",
+  "input_title": "Masculin Feminin",
+  "date": "1966",
+  "poster": "/AroNQnZiqjJOWf32lLNZUzWlGvd.jpg",
+  "id": "4710",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028d556ae87ec7010c98"
+  },
+  "title": "Mass",
+  "input_title": "Mass",
+  "date": "2021",
+  "poster": "/c3MQ3YZKJadrH2Yv45i07qMHGPM.jpg",
+  "id": "423333",
+  "rate": 7.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20297556ae87ec7010d18"
+  },
+  "title": "Melancholia",
+  "input_title": "Melancholia",
+  "date": "2011",
+  "poster": "/fMneszMiQuTKY8JUXrGGB5vwqJf.jpg",
+  "id": "62215",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028d556ae87ec7010c92"
+  },
+  "title": "Memento",
+  "input_title": "Memento",
+  "date": "2000",
+  "poster": "/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg",
+  "id": "77",
+  "rate": 8.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20294556ae87ec7010cee"
+  },
+  "title": "Memoir of a Snail",
+  "input_title": "Memoir of A Snail",
+  "date": "2024",
+  "poster": "/woaN8CbloH0akyX0E72ayxlJAB4.jpg",
+  "id": "1064486",
+  "rate": 8.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20298556ae87ec7010d2c"
+  },
+  "title": "Mickey 17",
+  "input_title": "Mickey 17",
+  "date": "2025",
+  "poster": "/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg",
+  "id": "696506",
+  "rate": 6.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20298556ae87ec7010d24"
+  },
+  "title": "Monty Python and the Holy Grail",
+  "input_title": "Monty Python and the Holy Grail",
+  "date": "1975",
+  "poster": "/7nTkHjETdGMYK1phHwDbPsrzbYl.jpg",
+  "id": "762",
+  "rate": 7.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028d556ae87ec7010c94"
+  },
+  "title": "Mrs. Doubtfire",
+  "input_title": "Mrs. Doubtfire",
+  "date": "1993",
+  "poster": "/shHrSmXS5140o6sQzgzXxn3KqSm.jpg",
+  "id": "788",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028d556ae87ec7010c9a"
+  },
+  "title": "My Fault",
+  "input_title": "My Fault",
+  "date": "2023",
+  "poster": "/w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+  "id": "1010581",
+  "rate": 7.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20296556ae87ec7010d14"
+  },
+  "title": "Napoleon",
+  "input_title": "Napoleon",
+  "date": "2023",
+  "poster": "/ytFOXyghxLzAM4KZyazDdEkM66q.jpg",
+  "id": "753342",
+  "rate": 6.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029a556ae87ec7010d40"
+  },
+  "title": "Never Let Me Go",
+  "input_title": "Never Let Me Go",
+  "date": "2010",
+  "poster": "/8F0r5ng9Fp60OhzQfR5v33fppq.jpg",
+  "id": "42188",
+  "rate": 6.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028d556ae87ec7010c9c"
+  },
+  "title": "Old",
+  "input_title": "Old",
+  "date": "2021",
+  "poster": "/vclShucpUmPhdAOmKgf3B3Z4POD.jpg",
+  "id": "631843",
+  "rate": 6.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028d556ae87ec7010c9e"
+  },
+  "title": "Oppenheimer",
+  "input_title": "Oppenheimer",
+  "date": "2023",
+  "poster": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+  "id": "872585",
+  "rate": 8.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20296556ae87ec7010d0e"
+  },
+  "title": "Paris, Texas",
+  "input_title": "Paris Texas",
+  "date": "1984",
+  "poster": "/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg",
+  "id": "655",
+  "rate": 8.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029a556ae87ec7010d3e"
+  },
+  "title": "Precious",
+  "input_title": "Precious",
+  "date": "2009",
+  "poster": "/d4ltLIDbvZskSwbzXqi0Hfv5ma4.jpg",
+  "id": "25793",
+  "rate": 7.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20295556ae87ec7010d02"
+  },
+  "title": "Prey",
+  "input_title": "Prey",
+  "date": "2022",
+  "poster": "/h58U7d1OZyuWaCWMYvw4mfnv6H3.jpg",
+  "id": "766507",
+  "rate": 7.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028e556ae87ec7010ca2"
+  },
+  "title": "Prisoners",
+  "input_title": "Prisoners",
+  "date": "2013",
+  "poster": "/jsS3a3ep2KyBVmmiwaz3LvK49b1.jpg",
+  "id": "146233",
+  "rate": 8.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029b556ae87ec7010d52"
+  },
+  "title": "Pulp Fiction",
+  "input_title": "Pulp Fiction",
+  "date": "1994",
+  "poster": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+  "id": "680",
+  "rate": 8.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028f556ae87ec7010cae"
+  },
+  "title": "Rango",
+  "input_title": "Rango",
+  "date": "2011",
+  "poster": "/A5MP1guV8pbruieG0tnpPIbaJtt.jpg",
+  "id": "44896",
+  "rate": 6.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028f556ae87ec7010cb2"
+  },
+  "title": "Recep Ivedik 2",
+  "input_title": "Recep Ivedik 2",
+  "date": "2009",
+  "poster": "/wuokr2itBRbbaLT0bjTykC252KJ.jpg",
+  "id": "31061",
+  "rate": 4.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028f556ae87ec7010cb4"
+  },
+  "title": "Recep Ivedik 3",
+  "input_title": "Recep Ivedik 3",
+  "date": "2010",
+  "poster": "/tnG9YzJY6B7ndESFjcVvB4SQGP6.jpg",
+  "id": "32926",
+  "rate": 4.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028f556ae87ec7010cb6"
+  },
+  "title": "Recep Ivedik 4",
+  "input_title": "Recep Ivedik 4",
+  "date": "2014",
+  "poster": "/wraqZkg846fNIowN5yXPR7hY05o.jpg",
+  "id": "257343",
+  "rate": 4.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028f556ae87ec7010cb8"
+  },
+  "title": "Recep Ivedik 5",
+  "input_title": "Recep Ivedik 5",
+  "date": "2017",
+  "poster": "/jPIYxH4A0JV5vUVggBGE1lIlUaQ.jpg",
+  "id": "438703",
+  "rate": 4.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20290556ae87ec7010cba"
+  },
+  "title": "Recep Ivedik 6",
+  "input_title": "Recep Ivedik 6",
+  "date": "2019",
+  "poster": "/4phY29csBN0e78q5m2dyIEfjDVO.jpg",
+  "id": "625489",
+  "rate": 4.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20290556ae87ec7010cbc"
+  },
+  "title": "Recep Ivedik 7",
+  "input_title": "Recep Ivedik 7",
+  "date": "2022",
+  "poster": "/cTTo0PlRBzupo3zj8EoJXzYnj1i.jpg",
+  "id": "952062",
+  "rate": 5.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028f556ae87ec7010cb0"
+  },
+  "title": "Recep İvedik",
+  "input_title": "Recep Ivedik 1",
+  "date": "2008",
+  "poster": "/4Ag2wjMtkhrPdHQHCT6YN2EHUvd.jpg",
+  "id": "31060",
+  "rate": 4.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20296556ae87ec7010d0c"
+  },
+  "title": "Repulsion",
+  "input_title": "Repulsion",
+  "date": "1965",
+  "poster": "/dtyCKEPLqv9wxyVazL4b843vtUb.jpg",
+  "id": "11481",
+  "rate": 7.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028f556ae87ec7010cac"
+  },
+  "title": "Requiem for a Dream",
+  "input_title": "Requiem for a Dream",
+  "date": "2000",
+  "poster": "/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg",
+  "id": "641",
+  "rate": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028e556ae87ec7010caa"
+  },
+  "title": "Reservoir Dogs",
+  "input_title": "Reservoir Dogs",
+  "date": "1992",
+  "poster": "/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+  "id": "500",
+  "rate": 8.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028e556ae87ec7010ca8"
+  },
+  "title": "Room",
+  "input_title": "Room",
+  "date": "2015",
+  "poster": "/2hHDMeYyZjbGWn0BeNH1cTMxuM7.jpg",
+  "id": "264644",
+  "rate": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20290556ae87ec7010cc0"
+  },
+  "title": "Saw",
+  "input_title": "Saw",
+  "date": "2004",
+  "poster": "/rLNSOudrayDBo1uqXjrhxcjODIC.jpg",
+  "id": "176",
+  "rate": 7.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20290556ae87ec7010cc2"
+  },
+  "title": "Saw II",
+  "input_title": "Saw II",
+  "date": "2005",
+  "poster": "/gTnaTysN8HsvVQqTRUh8m35mmUA.jpg",
+  "id": "215",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20292556ae87ec7010cd4"
+  },
+  "title": "Scott Pilgrim vs. the World",
+  "input_title": "Scott Pilgrim vs The World",
+  "date": "2010",
+  "poster": "/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg",
+  "id": "22538",
+  "rate": 7.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20291556ae87ec7010cce"
+  },
+  "title": "Se7en",
+  "input_title": "Se7en",
+  "date": "1995",
+  "poster": "/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+  "id": "807",
+  "rate": 8.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20291556ae87ec7010cd0"
+  },
+  "title": "Seven Pounds",
+  "input_title": "Seven Pounds",
+  "date": "2008",
+  "poster": "/85zUipgVy2QbvAJ6djZXYaGckMv.jpg",
+  "id": "11321",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20290556ae87ec7010cc4"
+  },
+  "title": "Shutter Island",
+  "input_title": "Shutter Island",
+  "date": "2010",
+  "poster": "/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+  "id": "11324",
+  "rate": 8.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20294556ae87ec7010cf2"
+  },
+  "title": "Sijjin",
+  "input_title": "Siccin",
+  "date": "2014",
+  "poster": "/fYbhwSIVl42JA4f6rs3MeE2wR4s.jpg",
+  "id": "334175",
+  "rate": 5.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20296556ae87ec7010d0a"
+  },
+  "title": "Small Things Like These",
+  "input_title": "Small Things Like These",
+  "date": "2024",
+  "poster": "/rdcO38cbWFg002nXg5QYtk7Tz4L.jpg",
+  "id": "1102493",
+  "rate": 6.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029a556ae87ec7010d42"
+  },
+  "title": "Snow White and the Huntsman",
+  "input_title": "The Hunt",
+  "date": "2012",
+  "poster": "/wLC5EEWUt7Sx1vGfSEcyCJKpuLd.jpg",
+  "id": "58595",
+  "rate": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20294556ae87ec7010cf4"
+  },
+  "title": "Society of the Snow",
+  "input_title": "Society of the Snow",
+  "date": "2023",
+  "poster": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
+  "id": "906126",
+  "rate": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20291556ae87ec7010ccc"
+  },
+  "title": "Sound of Freedom",
+  "input_title": "Sound of Freedom",
+  "date": "2023",
+  "poster": "/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg",
+  "id": "678512",
+  "rate": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20291556ae87ec7010cca"
+  },
+  "title": "Spider-Man: Across the Spider-Verse",
+  "input_title": "Spider-Man Across the Spider-Verse",
+  "date": "2023",
+  "poster": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+  "id": "569094",
+  "rate": 8.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20291556ae87ec7010cd2"
+  },
+  "title": "Stay",
+  "input_title": "Stay",
+  "date": "2005",
+  "poster": "/nrLZVP8jG0KBcabahRPp6UP7Oy2.jpg",
+  "id": "8066",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20290556ae87ec7010cbe"
+  },
+  "title": "Still Alice",
+  "input_title": "Still Alice",
+  "date": "2014",
+  "poster": "/m7lMKCHddIzlk1AkoNYdRos64DG.jpg",
+  "id": "284293",
+  "rate": 7.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20292556ae87ec7010cdc"
+  },
+  "title": "Talk to Me",
+  "input_title": "Talk to Me",
+  "date": "2023",
+  "poster": "/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
+  "id": "1008042",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20287556ae87ec7010c4a"
+  },
+  "title": "The Addams Family",
+  "input_title": "Addams Family",
+  "date": "1991",
+  "poster": "/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
+  "id": "2907",
+  "rate": 7.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20287556ae87ec7010c4c"
+  },
+  "title": "The Addams Family",
+  "input_title": "Addams Family",
+  "date": "2019",
+  "poster": "/q1epO0eO8DWu8Vo8tPfvVlzW48T.jpg",
+  "id": "481084",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20287556ae87ec7010c4e"
+  },
+  "title": "The Addams Family 2",
+  "input_title": "Addams Family 2",
+  "date": "2021",
+  "poster": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
+  "id": "639721",
+  "rate": 6.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20288556ae87ec7010c5a"
+  },
+  "title": "The Aviator",
+  "input_title": "The Aviator",
+  "date": "2004",
+  "poster": "/lx4kWcZc3o9PaNxlQpEJZM17XUI.jpg",
+  "id": "2567",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20294556ae87ec7010cfa"
+  },
+  "title": "The Creator",
+  "input_title": "The Creator",
+  "date": "2023",
+  "poster": "/3dSivDtOuyxLDxPH4v2tcNG1fP7.jpg",
+  "id": "670292",
+  "rate": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029b556ae87ec7010d4c"
+  },
+  "title": "The Dark Knight",
+  "input_title": "The Dark Knight",
+  "date": "2008",
+  "poster": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+  "id": "155",
+  "rate": 8.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029a556ae87ec7010d46"
+  },
+  "title": "The Devil's Advocate",
+  "input_title": "The Devil's Advocate",
+  "date": "1997",
+  "poster": "/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+  "id": "1813",
+  "rate": 7.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028a556ae87ec7010c74"
+  },
+  "title": "The Fabelmans",
+  "input_title": "Fabelmans",
+  "date": "2022",
+  "poster": "/h7llKkqkkJtJrTOaDLuVeUYDQ7I.jpg",
+  "id": "804095",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029b556ae87ec7010d4a"
+  },
+  "title": "The Godfather",
+  "input_title": "The Godfather",
+  "date": "1972",
+  "poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+  "id": "238",
+  "rate": 8.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029b556ae87ec7010d4e"
+  },
+  "title": "The Godfather Part II",
+  "input_title": "The Godfather Part II",
+  "date": "1974",
+  "poster": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+  "id": "240",
+  "rate": 8.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029b556ae87ec7010d54"
+  },
+  "title": "The Good, the Bad and the Ugly",
+  "input_title": "The Good, the Bad and the Ugly",
+  "date": "1966",
+  "poster": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
+  "id": "429",
+  "rate": 8.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028b556ae87ec7010c7e"
+  },
+  "title": "The Grey",
+  "input_title": "The Grey",
+  "date": "2012",
+  "poster": "/a0Vt3wx8ciKmPt4iXPx9sH4HBVU.jpg",
+  "id": "75174",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20293556ae87ec7010ce6"
+  },
+  "title": "The Hobbit: An Unexpected Journey",
+  "input_title": "The Hobbit: An Unexpected Journey",
+  "date": "2012",
+  "poster": "/yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg",
+  "id": "49051",
+  "rate": 7.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20293556ae87ec7010cea"
+  },
+  "title": "The Hobbit: The Battle of the Five Armies",
+  "input_title": "The Hobbit: The Battle of the Five Armies",
+  "date": "2014",
+  "poster": "/xT98tLqatZPQApyRmlPL12LtiWp.jpg",
+  "id": "122917",
+  "rate": 7.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20293556ae87ec7010ce8"
+  },
+  "title": "The Hobbit: The Desolation of Smaug",
+  "input_title": "The Hobbit: The Desolation of Smaug",
+  "date": "2013",
+  "poster": "/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
+  "id": "57158",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20296556ae87ec7010d08"
+  },
+  "title": "The Killer",
+  "input_title": "The Killer",
+  "date": "2023",
+  "poster": "/e7Jvsry47JJQruuezjU2X1Z6J77.jpg",
+  "id": "800158",
+  "rate": 6.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20297556ae87ec7010d16"
+  },
+  "title": "The King's Speech",
+  "input_title": "The Kings Speech",
+  "date": "2010",
+  "poster": "/pVNKXVQFukBaCz6ML7GH3kiPlQP.jpg",
+  "id": "45269",
+  "rate": 7.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028c556ae87ec7010c8e"
+  },
+  "title": "The Little Hours",
+  "input_title": "The Little Hours",
+  "date": "2017",
+  "poster": "/wS69OOwBJzimoLIcmYMSVkmhCZM.jpg",
+  "id": "411873",
+  "rate": 5.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20298556ae87ec7010d26"
+  },
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "input_title": "The Lord of the Rings: The Fellowship of the Ring",
+  "date": "2001",
+  "poster": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+  "id": "120",
+  "rate": 8.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029b556ae87ec7010d50"
+  },
+  "title": "The Lord of the Rings: The Return of the King",
+  "input_title": "The Lord of the Rings: The Return of the King",
+  "date": "2003",
+  "poster": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+  "id": "122",
+  "rate": 8.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2029b556ae87ec7010d56"
+  },
+  "title": "The Lord of the Rings: The Two Towers",
+  "input_title": "The Lord of the Rings: The Two Towers",
+  "date": "2002",
+  "poster": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+  "id": "121",
+  "rate": 8.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028e556ae87ec7010ca0"
+  },
+  "title": "The Orphanage",
+  "input_title": "The Orphanage",
+  "date": "2007",
+  "poster": "/vIpi1KtHLXUOfSVC2m6MqpjSPgL.jpg",
+  "id": "6537",
+  "rate": 7.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028e556ae87ec7010ca6"
+  },
+  "title": "The Pale Blue Eye",
+  "input_title": "Pale Blue Eye",
+  "date": "2022",
+  "poster": "/9xkGlFRqrN8btTLU0KQvOfn2PHr.jpg",
+  "id": "800815",
+  "rate": 6.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20295556ae87ec7010d04"
+  },
+  "title": "The Platform 2",
+  "input_title": "The Platform 2",
+  "date": "2024",
+  "poster": "/tvIpBg12IIA5Dr9Sjn38ygS1vQp.jpg",
+  "id": "1125510",
+  "rate": 5.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f2028e556ae87ec7010ca4"
+  },
+  "title": "The Prestige",
+  "input_title": "Prestige",
+  "date": "2006",
+  "poster": "/2ZOzyhoW08neG27DVySMCcq2emd.jpg",
+  "id": "1124",
+  "rate": 8.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20299556ae87ec7010d32"
+  },
+  "title": "The Revenant",
+  "input_title": "The Revenant",
+  "date": "2015",
+  "poster": "/ji3ecJphATlVgWNY0B0RVXZizdf.jpg",
+  "id": "281957",
+  "rate": 7.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20291556ae87ec7010cc6"
+  },
+  "title": "The Shawshank Redemption",
+  "input_title": "Shawshank Redemption",
+  "date": "1994",
+  "poster": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+  "id": "278",
+  "rate": 8.7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20291556ae87ec7010cc8"
+  },
+  "title": "The Silence of the Lambs",
+  "input_title": "Silence of the Lambs",
+  "date": "1991",
+  "poster": "/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+  "id": "274",
+  "rate": 8.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20294556ae87ec7010cf6"
+  },
+  "title": "The Substance",
+  "input_title": "The Substance",
+  "date": "2024",
+  "poster": "/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
+  "id": "933260",
+  "rate": 7.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20292556ae87ec7010ce0"
+  },
+  "title": "The Way Back",
+  "input_title": "The Way Back",
+  "date": "2010",
+  "poster": "/oImI6rxld0sKNfEXaszgreLnNAO.jpg",
+  "id": "49009",
+  "rate": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20292556ae87ec7010cda"
+  },
+  "title": "The Whale",
+  "input_title": "The Whale",
+  "date": "2022",
+  "poster": "/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
+  "id": "785084",
+  "rate": 7.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20299556ae87ec7010d34"
+  },
+  "title": "Threads",
+  "input_title": "Threads",
+  "date": "1984",
+  "poster": "/lBhU4U9Eehr9shstPem6I7BdkxK.jpg",
+  "id": "17835",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20292556ae87ec7010cd6"
+  },
+  "title": "Trainspotting",
+  "input_title": "Trainspotting",
+  "date": "1996",
+  "poster": "/1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+  "id": "627",
+  "rate": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20292556ae87ec7010cd8"
+  },
+  "title": "Truth or Dare",
+  "input_title": "Truth or Dare",
+  "date": "2018",
+  "poster": "/ei2waWQAG8NP244WShIFgGu9IOu.jpg",
+  "id": "460019",
+  "rate": 5.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20292556ae87ec7010cde"
+  },
+  "title": "World War Z",
+  "input_title": "World War Z",
+  "date": "2013",
+  "poster": "/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+  "id": "72190",
+  "rate": 6.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20293556ae87ec7010ce2"
+  },
+  "title": "You People",
+  "input_title": "You People",
+  "date": "2023",
+  "poster": "/x5E4TndwASNkaK2hwgeYfsIVo2x.jpg",
+  "id": "866413",
+  "rate": 5.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f20293556ae87ec7010ce4"
+  },
+  "title": "Zodiac",
+  "input_title": "Zodiac",
+  "date": "2007",
+  "poster": "/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+  "id": "1949",
+  "rate": 7.5,
+  "__v": 0
+}]

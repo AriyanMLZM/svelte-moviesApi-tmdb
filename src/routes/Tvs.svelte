@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte'
-	import tvs from '../constants/tmdb-ids.series.json'
+	import tvs from '../constants/tmdb-ids.series-datas.json'
 	import { List, Trending, PageSelector } from '../lib/index.svelte'
 	import { restoreScroll, saveScroll } from '../utils/scrollManager'
 

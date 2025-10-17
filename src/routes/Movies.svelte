@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte'
-	import movies from '../constants/tmdb-ids.movies.json'
+	import movies from '../constants/tmdb-ids.movies-datas.json'
 	import { List, Trending, PageSelector } from '../lib/index.svelte'
 
 	import { saveScroll, restoreScroll } from '../utils/scrollManager'
