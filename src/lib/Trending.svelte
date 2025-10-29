@@ -31,16 +31,18 @@
 			<a
 				href="/{type}/{trend.id}"
 				use:link
-				class="flex w-full flex-col gap-[10px] justify-between"
+				class="flex w-full flex-col gap-[10px] justify-between hover:bg-white/30 active:bg-white/30 hover:text-black text-white active:text-black rounded-[20px] pb-[10px]"
 			>
-				<div class="w-full min-h-[120px] rounded-[20px] overflow-hidden">
+				<div
+					class="w-full min-h-[120px] rounded-t-[20px] rounded-b-[20px] hover:rounded-b-[0px] duration-[300ms] overflow-hidden"
+				>
 					<Image
 						src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + trend.poster_path}
 						alt={trend.name || trend.title}
 					/>
 				</div>
 				<h2
-					class="text-[0.8rem] font-bold text-white text-center overflow-hidden overflow-ellipsis h-[30px] text-nowrap"
+					class="text-[0.8rem] font-bold text-center overflow-hidden overflow-ellipsis h-[30px] text-nowrap px-[10px]"
 				>
 					{trend.name || trend.title}
 				</h2>
