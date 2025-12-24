@@ -97,7 +97,7 @@
 		"
 	></div>
 	<div
-		class="w-full h-full bg-black/80 backdrop-blur-[3px] px-[20px] pb-[60px]"
+		class="w-full h-full bg-black/85 px-[20px] pb-[60px]"
 	>
 		<BackButton />
 		<TvInfo {tv} />

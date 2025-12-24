@@ -84,9 +84,7 @@
 			z-index: -1;
 		"
 	></div>
-	<div
-		class="w-full min-h-screen bg-black/80 backdrop-blur-[3px] px-[20px] pb-[60px]"
-	>
+	<div class="w-full min-h-screen bg-black/85 px-[20px] pb-[60px]">
 		<BackButton />
 		<MovieInfo {movie} />
 		{#await getCast()}
