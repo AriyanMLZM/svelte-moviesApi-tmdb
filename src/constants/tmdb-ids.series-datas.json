@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "6900d5370d88e015d18e9971"
+    "$oid": "6995f135d2f1fbbbb20727be"
   },
   "title": "12 Monkeys",
   "input_title": "12 Monkeys",
@@ -12,7 +12,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5370d88e015d18e9975"
+    "$oid": "6995f136d2f1fbbbb20727c2"
   },
   "title": "13 Reasons Why",
   "input_title": "13 Reasons Why",
@@ -24,7 +24,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5260d88e015d18e98f1"
+    "$oid": "6995f11fd2f1fbbbb207273e"
   },
   "title": "After Life",
   "input_title": "After Life",
@@ -36,31 +36,31 @@
 },
 {
   "_id": {
-    "$oid": "6900d5400d88e015d18e99b1"
+    "$oid": "6995f141d2f1fbbbb20727fe"
   },
   "title": "Alien: Earth",
   "input_title": "Alien Earth",
   "date": "2025",
   "poster": "/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
   "id": "157239",
-  "rate": 7.5,
+  "rate": 7.3,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5260d88e015d18e98f5"
+    "$oid": "6995f11fd2f1fbbbb2072742"
   },
   "title": "American Dad!",
   "input_title": "American Dad",
   "date": "2005",
-  "poster": "/aC1q422YhQR7k82GB8gW4KoD91p.jpg",
+  "poster": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
   "id": "1433",
   "rate": 7,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5260d88e015d18e98f3"
+    "$oid": "6995f11fd2f1fbbbb2072740"
   },
   "title": "Arcane",
   "input_title": "Arcane",
@@ -72,7 +72,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53e0d88e015d18e99a3"
+    "$oid": "6995f13ed2f1fbbbb20727f0"
   },
   "title": "Attack on Titan",
   "input_title": "Attack on Titan",
@@ -84,7 +84,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5280d88e015d18e9903"
+    "$oid": "6995f122d2f1fbbbb2072750"
   },
   "title": "Band of Brothers",
   "input_title": "Band of Brothers",
@@ -96,7 +96,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5270d88e015d18e98f9"
+    "$oid": "6995f120d2f1fbbbb2072746"
   },
   "title": "Banshee",
   "input_title": "Banshee",
@@ -108,7 +108,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5270d88e015d18e98fd"
+    "$oid": "6995f121d2f1fbbbb207274a"
   },
   "title": "Barry",
   "input_title": "Barry",
@@ -120,7 +120,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5280d88e015d18e9905"
+    "$oid": "6995f122d2f1fbbbb2072752"
   },
   "title": "Better Call Saul",
   "input_title": "Better Call Saul",
@@ -132,19 +132,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5280d88e015d18e9901"
+    "$oid": "6995f122d2f1fbbbb207274e"
   },
   "title": "Big Mouth",
   "input_title": "Big Mouth",
   "date": "2017",
   "poster": "/1Zio9w1tAd3r5Gu4d9AzTSx2hnT.jpg",
   "id": "74204",
-  "rate": 7.7,
+  "rate": 7.6,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5280d88e015d18e98ff"
+    "$oid": "6995f121d2f1fbbbb207274c"
   },
   "title": "Black Mirror",
   "input_title": "Black Mirror",
@@ -156,7 +156,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5290d88e015d18e9907"
+    "$oid": "6995f123d2f1fbbbb2072754"
   },
   "title": "BoJack Horseman",
   "input_title": "Bojack Horseman",
@@ -168,7 +168,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5270d88e015d18e98fb"
+    "$oid": "6995f120d2f1fbbbb2072748"
   },
   "title": "Breaking Bad",
   "input_title": "Breaking Bad",
@@ -180,7 +180,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5290d88e015d18e9909"
+    "$oid": "6995f144d2f1fbbbb207280e"
+  },
+  "title": "Californication",
+  "input_title": "Californication",
+  "date": "2007",
+  "poster": "/jPqOY8cq9KXQN4bD7zJGHCNvcb4.jpg",
+  "id": "1215",
+  "rate": 7.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f123d2f1fbbbb2072756"
   },
   "title": "Chernobyl",
   "input_title": "Chernobyl",
@@ -192,7 +204,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d52a0d88e015d18e990b"
+    "$oid": "6995f141d2f1fbbbb2072802"
+  },
+  "title": "Chief of War",
+  "input_title": "Chief of War",
+  "date": "2025",
+  "poster": "/8Mckh3qJRTzXTQNZtpb133RHmO4.jpg",
+  "id": "196890",
+  "rate": 7.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f123d2f1fbbbb2072758"
   },
   "title": "Cobra Kai",
   "input_title": "Cobra Kai",
@@ -204,7 +228,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53b0d88e015d18e998f"
+    "$oid": "6995f13bd2f1fbbbb20727dc"
   },
   "title": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
   "input_title": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
@@ -216,7 +240,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53b0d88e015d18e9993"
+    "$oid": "6995f13bd2f1fbbbb20727e0"
   },
   "title": "Conversations with a Killer: The John Wayne Gacy Tapes",
   "input_title": "Conversations with a Killer: The John Wayne Gacy Tapes",
@@ -228,7 +252,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53b0d88e015d18e9991"
+    "$oid": "6995f13bd2f1fbbbb20727de"
   },
   "title": "Conversations with a Killer: The Ted Bundy Tapes",
   "input_title": "Conversations with a Killer: The Ted Bundy Tapes",
@@ -240,7 +264,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53c0d88e015d18e9995"
+    "$oid": "6995f13cd2f1fbbbb20727e2"
   },
   "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
   "input_title": "DAHMER - Monster: The Jeffrey Dahmer Story",
@@ -252,7 +276,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d52a0d88e015d18e990f"
+    "$oid": "6995f124d2f1fbbbb207275c"
   },
   "title": "Da Vinci's Demons",
   "input_title": "Da Vinci's Demons",
@@ -264,19 +288,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d52a0d88e015d18e990d"
+    "$oid": "6995f124d2f1fbbbb207275a"
   },
   "title": "Dark",
   "input_title": "Dark",
   "date": "2017",
-  "poster": "/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg",
+  "poster": "/7CFCzWIZZcnxHke3yAQiGPWXHwF.jpg",
   "id": "70523",
   "rate": 8.4,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52a0d88e015d18e9911"
+    "$oid": "6995f124d2f1fbbbb207275e"
   },
   "title": "Deadwood",
   "input_title": "Deadwood",
@@ -288,7 +312,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5380d88e015d18e9979"
+    "$oid": "6995f137d2f1fbbbb20727c6"
   },
   "title": "Death's Game",
   "input_title": "Death's Game",
@@ -300,7 +324,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53b0d88e015d18e998d"
+    "$oid": "6995f13ad2f1fbbbb20727da"
   },
   "title": "Dexter",
   "input_title": "Dexter",
@@ -312,19 +336,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d53d0d88e015d18e999d"
+    "$oid": "6995f13dd2f1fbbbb20727ea"
   },
   "title": "Dexter: New Blood",
   "input_title": "Dexter: New Blood",
   "date": "2021",
   "poster": "/9EBKgrFIsCFSV1RZKWhYUdbtGiv.jpg",
   "id": "131927",
-  "rate": 8,
+  "rate": 7.9,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d53e0d88e015d18e99a7"
+    "$oid": "6995f13ed2f1fbbbb20727f4"
   },
   "title": "Dexter: Resurrection",
   "input_title": "Dexter: Resurrection",
@@ -336,7 +360,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5380d88e015d18e997d"
+    "$oid": "6995f138d2f1fbbbb20727ca"
   },
   "title": "Doctor Who",
   "input_title": "Doctor Who",
@@ -348,7 +372,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53a0d88e015d18e9985"
+    "$oid": "6995f139d2f1fbbbb20727d2"
   },
   "title": "Euphoria",
   "input_title": "Euphoria",
@@ -360,7 +384,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53a0d88e015d18e9987"
+    "$oid": "6995f139d2f1fbbbb20727d4"
   },
   "title": "FROM",
   "input_title": "From",
@@ -372,31 +396,31 @@
 },
 {
   "_id": {
-    "$oid": "6900d52b0d88e015d18e9917"
+    "$oid": "6995f125d2f1fbbbb2072764"
   },
   "title": "Fallout",
   "input_title": "Fallout",
   "date": "2024",
   "poster": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
   "id": "106379",
-  "rate": 8.2,
+  "rate": 8.1,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52b0d88e015d18e9915"
+    "$oid": "6995f125d2f1fbbbb2072762"
   },
   "title": "Family Guy",
   "input_title": "Family Guy",
   "date": "1999",
-  "poster": "/8o8kiBkWFK3gVytHdyzEWUBXVfK.jpg",
+  "poster": "/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
   "id": "1434",
   "rate": 7.4,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5390d88e015d18e997f"
+    "$oid": "6995f138d2f1fbbbb20727cc"
   },
   "title": "Fleabag",
   "input_title": "Fleabag",
@@ -408,7 +432,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5380d88e015d18e997b"
+    "$oid": "6995f138d2f1fbbbb20727c8"
   },
   "title": "Friends",
   "input_title": "Friends",
@@ -420,7 +444,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d52b0d88e015d18e9919"
+    "$oid": "6995f125d2f1fbbbb2072766"
   },
   "title": "Game of Thrones",
   "input_title": "Game of Thrones",
@@ -432,7 +456,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d52c0d88e015d18e991d"
+    "$oid": "6995f126d2f1fbbbb207276a"
   },
   "title": "Good Girls",
   "input_title": "Good Girls",
@@ -444,7 +468,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d52c0d88e015d18e991b"
+    "$oid": "6995f126d2f1fbbbb2072768"
   },
   "title": "Good Omens",
   "input_title": "Good Omens",
@@ -456,7 +480,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d52c0d88e015d18e991f"
+    "$oid": "6995f127d2f1fbbbb207276c"
   },
   "title": "Hannibal",
   "input_title": "Hannibal",
@@ -468,19 +492,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d52d0d88e015d18e9923"
+    "$oid": "6995f127d2f1fbbbb2072770"
   },
   "title": "Hell on Wheels",
   "input_title": "Hell on Wheels",
   "date": "2011",
-  "poster": "/hK6C1Iimyw52ToE3d8WFFUh9Vn1.jpg",
+  "poster": "/ckC9pL9yeYpOoK5aJ7GbYYWheK7.jpg",
   "id": "1401",
   "rate": 7.6,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52d0d88e015d18e9925"
+    "$oid": "6995f128d2f1fbbbb2072772"
   },
   "title": "Hellbound",
   "input_title": "Hellbound",
@@ -492,7 +516,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53d0d88e015d18e999b"
+    "$oid": "6995f13dd2f1fbbbb20727e8"
   },
   "title": "House",
   "input_title": "House M.D.",
@@ -504,19 +528,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d53c0d88e015d18e9999"
+    "$oid": "6995f13cd2f1fbbbb20727e6"
   },
   "title": "House of the Dragon",
   "input_title": "House of the Dragon",
   "date": "2022",
-  "poster": "/oxmdHR5Ka28HAJuMmS2hk5K6QQY.jpg",
+  "poster": "/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
   "id": "94997",
   "rate": 8.3,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52d0d88e015d18e9927"
+    "$oid": "6995f128d2f1fbbbb2072774"
   },
   "title": "How I Met Your Mother",
   "input_title": "How I Met Your Mother",
@@ -528,19 +552,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5390d88e015d18e9983"
+    "$oid": "6995f139d2f1fbbbb20727d0"
   },
   "title": "Lawmen: Bass Reeves",
   "input_title": "Lawmen: Bass Reeves",
   "date": "2023",
   "poster": "/94OpFcIZ3ZExqyJgrYafo41tZSt.jpg",
   "id": "157732",
-  "rate": 7.2,
+  "rate": 7.1,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52d0d88e015d18e9929"
+    "$oid": "6995f128d2f1fbbbb2072776"
   },
   "title": "Loki",
   "input_title": "Loki",
@@ -552,7 +576,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53f0d88e015d18e99a9"
+    "$oid": "6995f13fd2f1fbbbb20727f6"
   },
   "title": "Lost",
   "input_title": "Lost",
@@ -564,19 +588,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5400d88e015d18e99af"
+    "$oid": "6995f140d2f1fbbbb20727fc"
   },
-  "title": "Love & Death",
+  "title": "Love Death Match",
   "input_title": "Love and Death",
   "date": "2023",
-  "poster": "/8WchbT0UPQeo3PZ6G01fhccYaQB.jpg",
-  "id": "124800",
-  "rate": 7.8,
+  "poster": "/k2e0rLok09uv7HcAhyiHDSvp63e.jpg",
+  "id": "309391",
+  "rate": 0,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52e0d88e015d18e992b"
+    "$oid": "6995f128d2f1fbbbb2072778"
   },
   "title": "Lucifer",
   "input_title": "Lucifer",
@@ -588,7 +612,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d52f0d88e015d18e9937"
+    "$oid": "6995f12ad2f1fbbbb2072784"
   },
   "title": "MINDHUNTER",
   "input_title": "Mindhunter",
@@ -600,19 +624,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d52e0d88e015d18e9931"
+    "$oid": "6995f129d2f1fbbbb207277e"
   },
   "title": "Mad Men",
   "input_title": "Mad Men",
   "date": "2007",
-  "poster": "/yd4BrXPQZvin4XMDlXUP9JgQDUQ.jpg",
+  "poster": "/7v8iCNzKFpdlrCMcqCoJyn74Nsa.jpg",
   "id": "1104",
   "rate": 8.1,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52e0d88e015d18e992f"
+    "$oid": "6995f129d2f1fbbbb207277c"
   },
   "title": "Maid",
   "input_title": "Maid",
@@ -624,7 +648,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5310d88e015d18e9945"
+    "$oid": "6995f143d2f1fbbbb2072808"
+  },
+  "title": "Malcolm in the Middle",
+  "input_title": "Malcolm in the Middle",
+  "date": "2000",
+  "poster": "/uftxEWbn3OSykTy4DX4BrdVeiuv.jpg",
+  "id": "2004",
+  "rate": 8.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f12ed2f1fbbbb2072792"
   },
   "title": "Marvel's The Punisher",
   "input_title": "Punisher",
@@ -636,7 +672,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d52f0d88e015d18e9933"
+    "$oid": "6995f144d2f1fbbbb2072810"
+  },
+  "title": "Modern Family",
+  "input_title": "Modern Family",
+  "date": "2009",
+  "poster": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
+  "id": "1421",
+  "rate": 7.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f12ad2f1fbbbb2072780"
   },
   "title": "Money Heist",
   "input_title": "Money Heist",
@@ -648,19 +696,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5400d88e015d18e99b3"
+    "$oid": "6995f141d2f1fbbbb2072800"
   },
   "title": "Monster: The Ed Gein Story",
   "input_title": "Monster: The Ed Gein Story",
   "date": "2025",
   "poster": "/iDHzRALtZCzHVmx7uyjTTKvMAPB.jpg",
   "id": "286801",
-  "rate": 7.4,
+  "rate": 7.2,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d53c0d88e015d18e9997"
+    "$oid": "6995f13cd2f1fbbbb20727e4"
   },
   "title": "Monsters: The Lyle and Erik Menendez Story",
   "input_title": "Monsters: The Lyle and Erik Menendez Story",
@@ -672,7 +720,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5300d88e015d18e9939"
+    "$oid": "6995f12bd2f1fbbbb2072786"
   },
   "title": "Mr. Robot",
   "input_title": "Mr. Robot",
@@ -684,31 +732,31 @@
 },
 {
   "_id": {
-    "$oid": "6900d5300d88e015d18e993f"
+    "$oid": "6995f12cd2f1fbbbb207278c"
   },
   "title": "Orange Is the New Black",
   "input_title": "Orange is the new Black",
   "date": "2013",
   "poster": "/ekaa7YjGPTkFLcPhwWXTnARuCEU.jpg",
   "id": "1424",
-  "rate": 7.7,
+  "rate": 7.6,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5300d88e015d18e993d"
+    "$oid": "6995f12bd2f1fbbbb207278a"
   },
   "title": "Ozark",
   "input_title": "Ozark",
   "date": "2017",
-  "poster": "/m73bD8VjibSKuTWg597GQVyVhSb.jpg",
+  "poster": "/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
   "id": "69740",
   "rate": 8.2,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5310d88e015d18e9943"
+    "$oid": "6995f12dd2f1fbbbb2072790"
   },
   "title": "Peaky Blinders",
   "input_title": "Peaky Blinders",
@@ -720,19 +768,31 @@
 },
 {
   "_id": {
-    "$oid": "6900d5310d88e015d18e9947"
+    "$oid": "6995f144d2f1fbbbb2072812"
+  },
+  "title": "Pluribus",
+  "input_title": "Pluribus",
+  "date": "2025",
+  "poster": "/z7Nga7Q9IGFWs5OEduY2gGFxnX3.jpg",
+  "id": "225171",
+  "rate": 7.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f12ed2f1fbbbb2072794"
   },
   "title": "Prison Break",
   "input_title": "Prison Break",
   "date": "2005",
-  "poster": "/z885tJn5kkUHppjIK1g2Q54iTff.jpg",
+  "poster": "/wnmNPaLvhnMeOqnWlhNkYCZxtda.jpg",
   "id": "2288",
   "rate": 8.1,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5320d88e015d18e9949"
+    "$oid": "6995f12ed2f1fbbbb2072796"
   },
   "title": "Rick and Morty",
   "input_title": "Rick and Morty",
@@ -744,19 +804,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5320d88e015d18e994b"
+    "$oid": "6995f12ed2f1fbbbb2072798"
   },
   "title": "Sausage Party: Foodtopia",
   "input_title": "Sausage party: Foodtopia",
   "date": "2024",
   "poster": "/cPLk5uvh0Am0UQlxRP4xqNcVQD3.jpg",
   "id": "213249",
-  "rate": 7,
+  "rate": 6.8,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5330d88e015d18e9955"
+    "$oid": "6995f130d2f1fbbbb20727a2"
   },
   "title": "See",
   "input_title": "See",
@@ -768,7 +828,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5330d88e015d18e9951"
+    "$oid": "6995f12fd2f1fbbbb207279e"
   },
   "title": "Severance",
   "input_title": "Severance",
@@ -780,43 +840,43 @@
 },
 {
   "_id": {
-    "$oid": "6900d5340d88e015d18e9959"
+    "$oid": "6995f131d2f1fbbbb20727a6"
   },
   "title": "Shameless",
   "input_title": "Shameless",
   "date": "2011",
-  "poster": "/9akij7PqZ1g6zl42DQQTtL9CTSb.jpg",
+  "poster": "/ifo31fMWLmyOVpdak9K0kY4jldQ.jpg",
   "id": "34307",
   "rate": 8.2,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5340d88e015d18e995d"
+    "$oid": "6995f132d2f1fbbbb20727aa"
   },
   "title": "Sherlock",
   "input_title": "Sherlock",
   "date": "2010",
-  "poster": "/cIfGAkpvWD2zxHrXzhv3uptYbyV.jpg",
+  "poster": "/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
   "id": "19885",
   "rate": 8.5,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d53f0d88e015d18e99ad"
+    "$oid": "6995f140d2f1fbbbb20727fa"
   },
   "title": "Shrinking",
   "input_title": "Shrinking",
   "date": "2023",
-  "poster": "/cVmrNYgm5wcEexbXg4laNn3u4vq.jpg",
+  "poster": "/zEFKMNPBKq6JG7uuDkzTQ9WwErn.jpg",
   "id": "136311",
   "rate": 7.8,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d53a0d88e015d18e9989"
+    "$oid": "6995f13ad2f1fbbbb20727d6"
   },
   "title": "Silo",
   "input_title": "Silo",
@@ -828,7 +888,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5320d88e015d18e994d"
+    "$oid": "6995f12fd2f1fbbbb207279a"
   },
   "title": "Solar Opposites",
   "input_title": "Solar Opposites",
@@ -840,7 +900,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5380d88e015d18e9977"
+    "$oid": "6995f136d2f1fbbbb20727c4"
   },
   "title": "Sons of Anarchy",
   "input_title": "Sons of Anarchy",
@@ -852,7 +912,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5330d88e015d18e9953"
+    "$oid": "6995f130d2f1fbbbb20727a0"
   },
   "title": "South Park",
   "input_title": "South Park",
@@ -864,7 +924,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53d0d88e015d18e999f"
+    "$oid": "6995f13dd2f1fbbbb20727ec"
   },
   "title": "Space Force",
   "input_title": "Space Force",
@@ -876,7 +936,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5330d88e015d18e9957"
+    "$oid": "6995f131d2f1fbbbb20727a4"
   },
   "title": "Squid Game",
   "input_title": "Squid Game",
@@ -888,7 +948,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5340d88e015d18e995b"
+    "$oid": "6995f131d2f1fbbbb20727a8"
   },
   "title": "Stranger Things",
   "input_title": "Stranger Things",
@@ -900,7 +960,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5350d88e015d18e995f"
+    "$oid": "6995f143d2f1fbbbb207280a"
+  },
+  "title": "Succession",
+  "input_title": "Succession",
+  "date": "2018",
+  "poster": "/z0XiwdrCQ9yVIr4O0pxzaAYRxdW.jpg",
+  "id": "76331",
+  "rate": 8.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f132d2f1fbbbb20727ac"
   },
   "title": "That '70s Show",
   "input_title": "That 70s show",
@@ -912,7 +984,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5370d88e015d18e9973"
+    "$oid": "6995f136d2f1fbbbb20727c0"
   },
   "title": "The 100",
   "input_title": "the 100",
@@ -924,31 +996,55 @@
 },
 {
   "_id": {
-    "$oid": "6900d5270d88e015d18e98f7"
+    "$oid": "6995f120d2f1fbbbb2072744"
   },
   "title": "The Artful Dodger",
   "input_title": "The Artful Dodger",
   "date": "2023",
-  "poster": "/g3y1v3c7nLGZBaxWSxv3i4yV9bc.jpg",
+  "poster": "/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
   "id": "202208",
-  "rate": 8,
+  "rate": 8.1,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d53e0d88e015d18e99a1"
+    "$oid": "6995f142d2f1fbbbb2072804"
+  },
+  "title": "The Bear",
+  "input_title": "The Bear",
+  "date": "2022",
+  "poster": "/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+  "id": "136315",
+  "rate": 8.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f13ed2f1fbbbb20727ee"
   },
   "title": "The Big Bang Theory",
   "input_title": "The Big Bang Theory",
   "date": "2007",
-  "poster": "/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg",
+  "poster": "/euKFiO5M125rpngFRBbSW83beeI.jpg",
   "id": "1418",
   "rate": 7.9,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52b0d88e015d18e9913"
+    "$oid": "6995f142d2f1fbbbb2072806"
+  },
+  "title": "The Day of the Jackal",
+  "input_title": "The Day of the Jackal",
+  "date": "2024",
+  "poster": "/tYLecM3WSEjlkKhkGiH5G68Dprm.jpg",
+  "id": "222766",
+  "rate": 8.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f124d2f1fbbbb2072760"
   },
   "title": "The End of the F***ing World",
   "input_title": "End of the f**king world",
@@ -960,31 +1056,43 @@
 },
 {
   "_id": {
-    "$oid": "6900d52c0d88e015d18e9921"
+    "$oid": "6995f127d2f1fbbbb207276e"
   },
   "title": "The Handmaid's Tale",
   "input_title": "Handmaids' tale",
   "date": "2017",
   "poster": "/eGUT7j3n3rn5yGihlCgwUnD70HV.jpg",
   "id": "69478",
-  "rate": 8.2,
+  "rate": 8.1,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d53a0d88e015d18e998b"
+    "$oid": "6995f143d2f1fbbbb207280c"
+  },
+  "title": "The Hunting Wives",
+  "input_title": "The Hunting Wives",
+  "date": "2025",
+  "poster": "/knR0tDKgFwsUMxe0MqZSWQYhwpL.jpg",
+  "id": "244447",
+  "rate": 6.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995f13ad2f1fbbbb20727d8"
   },
   "title": "The Last of Us",
   "input_title": "The Last of Us",
   "date": "2023",
   "poster": "/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
   "id": "100088",
-  "rate": 8.5,
+  "rate": 8.4,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d52e0d88e015d18e992d"
+    "$oid": "6995f129d2f1fbbbb207277a"
   },
   "title": "The Lord of the Rings: The Rings of Power",
   "input_title": "The Lord of the Rings: The Rings of Power",
@@ -996,7 +1104,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d52f0d88e015d18e9935"
+    "$oid": "6995f12ad2f1fbbbb2072782"
   },
   "title": "The Mandalorian",
   "input_title": "Mandalorian",
@@ -1008,19 +1116,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5300d88e015d18e993b"
+    "$oid": "6995f12bd2f1fbbbb2072788"
   },
   "title": "The Office",
   "input_title": "the Office",
   "date": "2005",
-  "poster": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+  "poster": "/dg9e5fPRRId8PoBE0F6jl5y85Eu.jpg",
   "id": "2316",
   "rate": 8.6,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5310d88e015d18e9941"
+    "$oid": "6995f12dd2f1fbbbb207278e"
   },
   "title": "The Penguin",
   "input_title": "the penguin",
@@ -1032,7 +1140,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5320d88e015d18e994f"
+    "$oid": "6995f12fd2f1fbbbb207279c"
   },
   "title": "The Simpsons",
   "input_title": "Simpsons",
@@ -1044,19 +1152,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5390d88e015d18e9981"
+    "$oid": "6995f138d2f1fbbbb20727ce"
   },
   "title": "The Sopranos",
   "input_title": "The Sopranos",
   "date": "1999",
   "poster": "/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
   "id": "1398",
-  "rate": 8.6,
+  "rate": 8.7,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5360d88e015d18e996d"
+    "$oid": "6995f135d2f1fbbbb20727ba"
   },
   "title": "The Walking Dead",
   "input_title": "Walking Dead",
@@ -1068,7 +1176,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5360d88e015d18e9967"
+    "$oid": "6995f134d2f1fbbbb20727b4"
   },
   "title": "The Wire",
   "input_title": "Wire",
@@ -1080,19 +1188,19 @@
 },
 {
   "_id": {
-    "$oid": "6900d5360d88e015d18e996b"
+    "$oid": "6995f134d2f1fbbbb20727b8"
   },
   "title": "The Witcher",
   "input_title": "Witcher",
   "date": "2019",
-  "poster": "/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg",
+  "poster": "/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg",
   "id": "71912",
-  "rate": 8,
+  "rate": 7.9,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6900d5350d88e015d18e9961"
+    "$oid": "6995f133d2f1fbbbb20727ae"
   },
   "title": "True Detective",
   "input_title": "True Detective",
@@ -1104,7 +1212,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5350d88e015d18e9963"
+    "$oid": "6995f133d2f1fbbbb20727b0"
   },
   "title": "Two and a Half Men",
   "input_title": "Two and a Half Men",
@@ -1116,7 +1224,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5350d88e015d18e9965"
+    "$oid": "6995f133d2f1fbbbb20727b2"
   },
   "title": "Vikings",
   "input_title": "Vikings",
@@ -1128,7 +1236,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5360d88e015d18e9969"
+    "$oid": "6995f134d2f1fbbbb20727b6"
   },
   "title": "Wednesday",
   "input_title": "Wednesday",
@@ -1140,7 +1248,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d5370d88e015d18e996f"
+    "$oid": "6995f135d2f1fbbbb20727bc"
   },
   "title": "Westworld",
   "input_title": "Westworld",
@@ -1152,7 +1260,7 @@
 },
 {
   "_id": {
-    "$oid": "6900d53e0d88e015d18e99a5"
+    "$oid": "6995f13ed2f1fbbbb20727f2"
   },
   "title": "Yellowstone",
   "input_title": "Yellowstone",
@@ -1164,13 +1272,13 @@
 },
 {
   "_id": {
-    "$oid": "6900d53f0d88e015d18e99ab"
+    "$oid": "6995f140d2f1fbbbb20727f8"
   },
   "title": "Young Sheldon",
   "input_title": "Young Sheldon",
   "date": "2017",
   "poster": "/kidkbZRBGbsEIrX7pODRSKi9ipl.jpg",
   "id": "71728",
-  "rate": 8.1,
+  "rate": 8,
   "__v": 0
 }]
