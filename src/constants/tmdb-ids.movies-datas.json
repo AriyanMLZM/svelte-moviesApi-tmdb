@@ -36,18 +36,6 @@
 },
 {
   "_id": {
-    "$oid": "6995ef8d28d01d0b8f217b72"
-  },
-  "title": "2001: A Space Odyssey",
-  "input_title": "2001: A Space Odyssey",
-  "date": "1968",
-  "poster": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
-  "id": "62",
-  "rate": 8.1,
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6995ef9528d01d0b8f217baa"
   },
   "title": "28 Years Later",

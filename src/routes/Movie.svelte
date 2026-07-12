@@ -19,7 +19,7 @@
 
 	const getData = async () => {
 		const resTmdb = await fetch(
-			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/movie/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/movie/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`,
 		)
 		const {
 			title: title,
@@ -51,7 +51,7 @@
 
 	const getCast = async () => {
 		const resTmdb = await fetch(
-			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/movie/${params.id}/credits?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/movie/${params.id}/credits?api_key=${import.meta.env.VITE_TMDB_API_KEY}`,
 		)
 		const { cast, crew } = await resTmdb.json()
 		const directors = crew.filter((item: any) => item.job === 'Director')
@@ -72,7 +72,8 @@
 	<div
 		class="w-full min-h-screen"
 		style="
-			background-image: url('{import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
+			background-image: url('{import.meta.env.VITE_PROXY_API +
+			import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 			movie.backgroundImage}');
 			background-position: center;
 			background-size: cover;

@@ -12,7 +12,9 @@
 >
 	<div class="w-[300px] h-[300px] rounded-[20px] overflow-hidden">
 		<Image
-			src={import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND + tv.backgroundImage}
+			src={import.meta.env.VITE_PROXY_API +
+				import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
+				tv.backgroundImage}
 			alt={tv.title}
 		/>
 	</div>

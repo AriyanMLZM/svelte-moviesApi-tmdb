@@ -17,7 +17,9 @@
 		>
 			<div class="w-full min-h-[120px] rounded-[20px] overflow-hidden">
 				<Image
-					src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + season.poster_path}
+					src={import.meta.env.VITE_PROXY_API +
+						import.meta.env.VITE_TMDB_IMAGE_URL_POSTER +
+						season.poster_path}
 					alt={season.name}
 				/>
 			</div>

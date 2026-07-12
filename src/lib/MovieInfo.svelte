@@ -12,7 +12,8 @@
 >
 	<div class="w-[300px] h-[300px] rounded-[20px] overflow-hidden">
 		<Image
-			src={import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
+			src={import.meta.env.VITE_PROXY_API +
+				import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 				movie.backgroundImage}
 			alt={movie.title}
 		/>
@@ -42,7 +43,7 @@
 			{movie.vote.toFixed(1)}
 		</h2>
 	</div>
-	{#if movie.tagline !== ""}
+	{#if movie.tagline !== ''}
 		<div class="p-[10px] md:p-[30px] max-w-[500px]">
 			<h2 class="text-white text-[1.1rem]">" {movie.tagline} "</h2>
 		</div>

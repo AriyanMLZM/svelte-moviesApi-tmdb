@@ -15,7 +15,9 @@
 			<div class="flex flex-col w-[450px] gap-[20px] p-[20px]">
 				<div class="w-full h-[250px] rounded-[20px] overflow-hidden">
 					<Image
-						src={import.meta.env.VITE_TMDB_IMAGE_URL_STILL + episode.still_path}
+						src={import.meta.env.VITE_PROXY_API +
+							import.meta.env.VITE_TMDB_IMAGE_URL_STILL +
+							episode.still_path}
 						alt={episode.name}
 					/>
 				</div>

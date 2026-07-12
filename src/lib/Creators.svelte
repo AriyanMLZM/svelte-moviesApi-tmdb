@@ -12,7 +12,8 @@
 		<div class="flex">
 			<div class="w-[100px] h-[120px] rounded-[20px] overflow-hidden">
 				<Image
-					src={import.meta.env.VITE_TMDB_IMAGE_URL_PROFILE +
+					src={import.meta.env.VITE_PROXY_API +
+						import.meta.env.VITE_TMDB_IMAGE_URL_PROFILE +
 						person.profile_path}
 					alt={person.name}
 				/>

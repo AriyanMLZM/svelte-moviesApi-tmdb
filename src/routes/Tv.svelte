@@ -21,7 +21,7 @@
 
 	const getData = async () => {
 		const resTmdb = await fetch(
-			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`,
 		)
 		const {
 			name: title,
@@ -65,7 +65,7 @@
 
 	const getCast = async () => {
 		const resTmdb = await fetch(
-			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}/credits?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}/credits?api_key=${import.meta.env.VITE_TMDB_API_KEY}`,
 		)
 		const { cast } = await resTmdb.json()
 		return cast
@@ -84,7 +84,8 @@
 	<div
 		class="w-full min-h-screen"
 		style="
-			background-image: url('{import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
+			background-image: url('{import.meta.env.VITE_PROXY_API +
+			import.meta.env.VITE_TMDB_IMAGE_URL_BACKGROUND +
 			tv.backgroundImage}');
 			background-position: center;
 			background-size: cover;
@@ -96,9 +97,7 @@
 			z-index: -1;
 		"
 	></div>
-	<div
-		class="w-full h-full bg-black/85 px-[20px] pb-[60px]"
-	>
+	<div class="w-full h-full bg-black/85 px-[20px] pb-[60px]">
 		<BackButton />
 		<TvInfo {tv} />
 		<Seasons seasons={tv.seasons} id={params.id} />

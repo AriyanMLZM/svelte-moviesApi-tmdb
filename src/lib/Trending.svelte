@@ -7,7 +7,7 @@
 
 	const getData = async () => {
 		const resTmdb = await fetch(
-			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/trending/${type}/week?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/trending/${type}/week?api_key=${import.meta.env.VITE_TMDB_API_KEY}`,
 		)
 		const { results } = await resTmdb.json()
 		results.length = 12
@@ -37,7 +37,9 @@
 					class="w-full min-h-[120px] rounded-t-[20px] rounded-b-[20px] hover:rounded-b-[0px] duration-[300ms] overflow-hidden"
 				>
 					<Image
-						src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + trend.poster_path}
+						src={import.meta.env.VITE_PROXY_API +
+							import.meta.env.VITE_TMDB_IMAGE_URL_POSTER +
+							trend.poster_path}
 						alt={trend.name || trend.title}
 					/>
 				</div>

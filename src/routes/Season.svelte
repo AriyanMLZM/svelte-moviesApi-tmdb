@@ -10,7 +10,7 @@
 
 	const getData = async () => {
 		const resTmdb = await fetch(
-			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}/season/${params.seasonNum}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/tv/${params.id}/season/${params.seasonNum}?api_key=${import.meta.env.VITE_TMDB_API_KEY}`,
 		)
 		const {
 			episodes,
@@ -33,7 +33,8 @@
 {:then season}
 	<section
 		class="w-full h-full bg-center bg-cover"
-		style:background-image="url({import.meta.env.VITE_TMDB_IMAGE_URL +
+		style:background-image="url({import.meta.env.VITE_PROXY_API +
+			import.meta.env.VITE_TMDB_IMAGE_URL +
 			season.poster})"
 	>
 		<div

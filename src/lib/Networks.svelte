@@ -12,7 +12,9 @@
 		>
 			{#if network.logo_path}
 				<img
-					src={import.meta.env.VITE_TMDB_IMAGE_URL_LOGO + network.logo_path}
+					src={import.meta.env.VITE_PROXY_API +
+						import.meta.env.VITE_TMDB_IMAGE_URL_LOGO +
+						network.logo_path}
 					alt={network.name}
 					class="w-full"
 				/>

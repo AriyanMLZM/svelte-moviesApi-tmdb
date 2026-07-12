@@ -13,7 +13,9 @@
 >
 	<div class="w-full h-full min-h-[200px] rounded-t-[20px] overflow-hidden">
 		<Image
-			src={import.meta.env.VITE_TMDB_IMAGE_URL_POSTER + item.poster}
+			src={import.meta.env.VITE_PROXY_API +
+				import.meta.env.VITE_TMDB_IMAGE_URL_POSTER +
+				item.poster}
 			alt={item.title}
 		/>
 	</div>
