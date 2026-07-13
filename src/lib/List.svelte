@@ -3,7 +3,6 @@
 	export let data
 	export let type
 	import { Item } from './index.svelte'
-	console.log(data)
 </script>
 
 <section

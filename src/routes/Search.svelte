@@ -4,10 +4,19 @@
 	document.title = 'Movotopia | Search'
 
 	let value: string = ''
+	let debouncedValue: string = ''
 	let inputEl: HTMLInputElement
+	let debounceTimeout: ReturnType<typeof setTimeout>
 
-	$: searchingMovies = search(value, 'movie')
-	$: searchingTvs = search(value, 'tv')
+	$: {
+		clearTimeout(debounceTimeout)
+		debounceTimeout = setTimeout(() => {
+			debouncedValue = value
+		}, 500)
+	}
+
+	$: searchingMovies = search(debouncedValue, 'movie')
+	$: searchingTvs = search(debouncedValue, 'tv')
 
 	onMount(() => inputEl.focus())
 
@@ -16,11 +25,10 @@
 			return []
 		}
 		const resTmdb = await fetch(
-			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/search/${type}?api_key=${import.meta.env.VITE_TMDB_API_KEY}%26query=${phrase}`
+			`${import.meta.env.VITE_PROXY_API}https://api.themoviedb.org/3/search/${type}?api_key=${import.meta.env.VITE_TMDB_API_KEY}%26query=${phrase}`,
 		)
 		const { results } = await resTmdb.json()
 		if (results.length === 0) return []
-		console.log(results)
 		if (results.length > 10) results.length = 10
 		const modifiedResults = results.map((item: any) => {
 			return {
